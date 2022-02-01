@@ -189,54 +189,6 @@ The formula of the index is presented as a string/expression (e.g. `"(N - R)/(N 
 
 </tr>
 
-<tr>
-
-<td>Backscattering Coefficient HV</td>
-<td>HV</td>
-<td>HV</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>Backscattering Coefficient VH</td>
-<td>VH</td>
-<td>VH</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>Backscattering Coefficient HH</td>
-<td>HH</td>
-<td>HH</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>Backscattering Coefficient VV</td>
-<td>VV</td>
-<td>VV</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-
-</tr>
-
 </table>
 
 Additional index parameters also follow a standard:
