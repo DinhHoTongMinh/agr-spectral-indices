@@ -1,4 +1,5 @@
 # Spectral Indices
+**Contributors:** *Michele Croci*, *Giorgio Impollonia* and *Stefano Amaducci*
 
 The ready-to-use curated list of spectral indices ([check the list here](https://github.com/davemlz/awesome-ee-spectral-indices/blob/main/output/spectral-indices-table.csv)) for remote sensing applications is presented here. The list is available in two formats ([CSV](https://raw.githubusercontent.com/davemlz/awesome-ee-spectral-indices/main/output/spectral-indices-table.csv), [JSON](https://raw.githubusercontent.com/davemlz/awesome-ee-spectral-indices/main/output/spectral-indices-dict.json)) so it can be easily used in any programming language.
 
