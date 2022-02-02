@@ -13,8 +13,8 @@ Each item of the list has the following attributes:
 - `bands`: List of required bands/parameters for the index computation (e.g. `["N","G"]`).
 - `reference`: Link to the index reference/paper/doi (e.g. `"https://doi.org/10.1080/01431169608948714"`).
 - `type`: Type/application of the index (e.g. `"water"`).
-- `date_of_addition`: Date of addition to the list (e.g. `"2021-04-07"`).
-- `contributor`: GitHub user link of the contributor (e.g. `"https://github.com/davemlz"`).
+- `date_of_addition`: Date of addition to the list (e.g. `"2022-01-01"`).
+- `contributor`: GitHub user link of the contributor (e.g. `"https://github.com/mcroci"`).
 
 ## Expressions
 
