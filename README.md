@@ -31,7 +31,6 @@ The formula of the index is presented as a string/expression (e.g. `"(N - R)/(N 
 <th> Landsat-8 </th>
 <th> Landsat-457 </th>
 <th> MODIS </th>
-
 </tr>
 
 <tr>
@@ -405,13 +404,6 @@ The kernel indices are constructed using a special type of parameters:
 - [kNDVI](https://doi.org/10.1126/sciadv.abc7447): Kernel Normalized Difference Vegetation Index.
 - [kRVI](https://doi.org/10.1126/sciadv.abc7447): Kernel Ratio Vegetation Index.
 - [kVARI](https://doi.org/10.1126/sciadv.abc7447): Kernel Visible Atmospherically Resistant Index.
-
-## RADAR 🛰️
-
-- [DpRVIHH](https://www.tandfonline.com/doi/abs/10.5589/m12-043): Dual-Polarized Radar Vegetation Index HH.
-- [DpRVIVV](https://doi.org/10.3390/app9040655): Dual-Polarized Radar Vegetation Index VV.
-- [QpRVI](https://doi.org/10.1109/IGARSS.2001.976856): Quad-Polarized Radar Vegetation Index.
-- [RFDI](https://doi.org/10.5194/bg-9-179-2012): Radar Forest Degradation Index.
 
 # List
 
