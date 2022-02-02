@@ -379,31 +379,11 @@ The kernel indices are constructed using a special type of parameters:
 - [WI2](https://doi.org/10.3390/rs11182186): Water Index 2.
 - [WRI](https://doi.org/10.1109/GEOINFORMATICS.2010.5567762): Water Ratio Index.
 
-## Snow ⛄
-
-- [NDSI](https://doi.org/10.1109/IGARSS.1994.399618): Normalized Difference Snow Index.
-- [NDSII](https://doi.org/10.1080/01431160119766): Normalized Difference Snow Ice Index.
-- [S3](https://doi.org/10.3178/jjshwr.12.28): S3 Snow Index.
-- [SWI](https://doi.org/10.3390/rs11232774): Snow Water Index.
-
 ## Drought 🏜️
 
 - [NDDI](https://doi.org/10.1029/2006GL029127): Normalized Difference Drought Index.
 - [NMDI](https://doi.org/10.1029/2007GL031021): Normalized Multi‐band Drought Index.
 
-## Urban 🏙️
-
-- [EBBI](https://doi.org/10.3390/rs4102957): Enhanced Built-Up and Bareness Index.
-- [NDBaI](https://doi.org/10.1109/IGARSS.2005.1526319): Normalized Difference Bareness Index.
-- [NDBI](http://dx.doi.org/10.1080/01431160304987): Normalized Difference Built-Up Index.
-- [NHFD](https://www.semanticscholar.org/paper/Using-WorldView-2-Vis-NIR-MSI-Imagery-to-Support-Wolf/5e5063ccc4ee76b56b721c866e871d47a77f9fb4): Non-Homogeneous Feature Difference.
-
-## Kernel 🎯
-
-- [kEVI](https://doi.org/10.1126/sciadv.abc7447): Kernel Enhanced Vegetation Index.
-- [kNDVI](https://doi.org/10.1126/sciadv.abc7447): Kernel Normalized Difference Vegetation Index.
-- [kRVI](https://doi.org/10.1126/sciadv.abc7447): Kernel Ratio Vegetation Index.
-- [kVARI](https://doi.org/10.1126/sciadv.abc7447): Kernel Visible Atmospherically Resistant Index.
 
 # List
 
