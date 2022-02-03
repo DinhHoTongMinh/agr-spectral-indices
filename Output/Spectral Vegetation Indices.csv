@@ -1,184 +1,184 @@
-short_name;long_name;formula;Applications;Bands;References;Index DataBase
-AFRI1600;Aerosol Free Vegetation Index (1600 nm);(N - 0.66 * S1) / (N + 0.66 * S1);Fire Forestry Vegetation;['N' 'S1'];https://doi.org/10.1016/S0034-4257(01)00190-0;https://www.indexdatabase.de/db/i-single.php?id=393
-AFRI2100;Aerosol Free Vegetation Index (2100 nm);(N - 0.5 * S2) / (N + 0.5 * S2);Fire Forestry Vegetation;['N' 'S2'];https://doi.org/10.1016/S0034-4257(01)00190-0;https://www.indexdatabase.de/db/i-single.php?id=395
-ARI;Anthocyanin Reflectance Index;(1 / G) - (1 / RE1);Vegetation Vegetation-stress;['G' 'RE1'];https://doi.org/10.1562/0031-8655(2001)074%3C0038:OPANEO%3E2.0.CO;https://www.indexdatabase.de/db/i-single.php?id=214
-ARVI;Atmospherically Resistant Vegetation Index;(N - (R - gamma * (R - B))) / (N + (R - gamma * (R - B)));Agriculture Vegetation Vegetation-Vitality;['gamma' 'N' 'R' 'B'];https://doi.org/10.1109/36.134076;https://www.indexdatabase.de/db/i-single.php?id=4
-ATSAVI;Adjusted Transformed Soil-Adjusted Vegetation Index;sla * (N - sla * R - slb) / (sla * N + R - sla * slb + 0.08 * (1 + sla ** 2.0));Soil Vegetation;['sla''slb' 'N' 'R'];https://doi.org/10.1016/0034-4257(91)90009-U;https://www.indexdatabase.de/db/i-single.php?id=209
-BCC;Blue Chromatic Coordinate;B / (R + G + B);Vegetation;['B' 'R' 'G'];https://doi.org/10.1016/0034-4257(87)90088-5;
-BGI;Simple Ratio 450/550 Blue green pigment index;B / R;Vegetation;['B' 'R'];https://doi.org/10.1016/j.rse.2005.09.002;https://www.indexdatabase.de/db/i-single.php?id=210
-BNDVI;Blue Normalized Difference Vegetation Index;(N - B)/(N + B);Vegetation;['N' 'B'];https://doi.org/10.1007/s11119-004-5319-8;https://www.indexdatabase.de/db/i-single.php?id=135
-BWDRVI;Blue Wide Dynamic Range Vegetation Index;(alpha * N - B) / (alpha * N + B);Vegetation;['N' 'B' 'alpha'];https://doi.org/10.2135/cropsci2007.01.0031;https://www.indexdatabase.de/db/i-single.php?id=136
-CCCI;Canopy Chlorophyll Content Index;((N - RE1) / (N + RE1))/(( N - R)/(N + R));Agriculture Agriculture - Precision Crop Management Vegetation Vegetation-Chlorophyll;['N' 'RE1' 'R'];https://doi.org/10.1016/j.fcr.2013.12.018;https://www.indexdatabase.de/db/i-single.php?id=224
-CIgreen;Chlorophyll Index Green;(N / G) - 1.0;Vegetation Vegetation-Chlorophyll Vegetation - LAI;['N' 'G'];https://doi.org/10.1078/0176-1617-00887;https://www.indexdatabase.de/db/i-single.php?id=128
-CIgreen740.560;Chlorophyll Index Green;(RE2 / G) - 1.0;Vegetation Vegetation-Chlorophyll Vegetation - LAI;['RE2' 'G'];;
-CIgreen783.560;Chlorophyll Index Green;(RE3 / G) - 1.0;Vegetation Vegetation-Chlorophyll Vegetation - LAI;['RE3' 'G'];;
-CIgreen865.560;Chlorophyll Index Green;(RE4 / G) - 1.0;Vegetation Vegetation-Chlorophyll Vegetation - LAI;['RE4' 'G'];;
-CIre;Chlorophyll Index Red Edge;(N / RE1) - 1.0;Vegetation Vegetation-Chlorophyll Vegetation - LAI;['RE1' 'N'];https://doi.org/10.1078/0176-1617-00887;https://www.indexdatabase.de/db/i-single.php?id=131
-CIre740.705;Chlorophyll Index Red Edge;(RE2 / RE1) - 1.0;Vegetation Vegetation-Chlorophyll Vegetation - LAI;['RE1' 'RE2'];;
-CIre783.705;Chlorophyll Index Red Edge;(RE3 / RE1) - 1.0;Vegetation Vegetation-Chlorophyll Vegetation - LAI;['RE1' 'RE3'];;
-CIre865.705;Chlorophyll Index Red Edge;(RE4 / RE1) - 1.0;Vegetation Vegetation-Chlorophyll Vegetation - LAI;['RE1' 'RE4'];;
-CVI;Chlorophyll Vegetation Index;(N / G) * (R / G);Agriculture Vegetation Vegetation-Chlorophyll;['N' 'R' 'G'];https://doi.org/10.1007/s11119-008-9075-z;https://www.indexdatabase.de/db/i-single.php?id=391
-CVI705;modifed Chlorophyll Vegetation Index;(RE1 / G) * (R / G);vegetation;['RE1' 'R' 'G'];;
-CVI740;modifed Chlorophyll Vegetation Index;(RE2 / G) * (R / G);vegetation;['RE2' 'R' 'G'];;
-CVI783;modifed Chlorophyll Vegetation Index;(RE3 / G) * (R / G);vegetation;['RE3' 'R' 'G'];;
-CVI865;modifed Chlorophyll Vegetation Index;(RE4 / G) * (R / G);vegetation;['RE3' 'R' 'G'];;
-DVI;Difference Vegetation Index;N - R;vegetation;['N' 'R'];https://doi.org/10.2307/1936256;
-EVI;Enhanced Vegetation Index;g * (N - R) / (N + C1 * R - C2 * B + L);Vegetation Vegetation - Biomass Vegetation - LAI;['g' 'N' 'R' 'C1' 'C2' 'L'];https://doi.org/10.1016/S0034-4257(96)00112-5;https://www.indexdatabase.de/db/i-single.php?id=16
-EVI2;Two-Band Enhanced Vegetation Index;g * (N - R) / (N + 2.4 * R + L);Vegetation Vegetation - Biomass Vegetation - LAI;['g' 'N' 'R' 'L'];https://doi.org/10.1016/j.rse.2008.06.006;https://www.indexdatabase.de/db/i-single.php?id=576
-EVI740;modified Enhanced Vegetation Index;g*((RE2 - R)/(RE2 + C1 * R - C2 * B + L));Vegetation Vegetation - Biomass Vegetation - LAI;['g' 'RE2' 'R' 'C1' 'C2' 'B' 'L'];;
-EVI783;modified Enhanced Vegetation Index;g*((RE3 - R)/(RE3 + C1 *R - C2 * B + L));Vegetation Vegetation - Biomass Vegetation - LAI;['g' 'RE3' 'R' 'C1' 'C2' 'B' 'L'];;
-EVI865;modified Enhanced Vegetation Index;g * ((RE4 - R)/(RE4 + C1 *R - C2 *B + L);Vegetation Vegetation - Biomass Vegetation - LAI;['g' 'RE4' 'R' 'C1' 'C2' 'B' 'L'];;
-ExG;Excess Green Index;2 * G - (R + B);Vegetation;['B' 'R' 'G'];https://doi.org/10.13031/2013.27838;
-FCVI;Fluorescence Correction Vegetation Index;N - ((R + G + B) / 3.0);Vegetation;['N' 'B' 'R' 'G'];https://doi.org/10.1016/j.rse.2020.111676;
-GARI;Green Atmospherically Resistant Vegetation Index;(N - (G - (B - R))) / (N - (G + (B - R)));Vegetation;['N' 'B' 'R' 'G'];https://doi.org/10.1016/s0034-4257(96)00072-7;https://www.indexdatabase.de/db/i-single.php?id=363
-GBNDVI;Green-Blue Normalized Difference Vegetation Index;(N - (G + B))/(N + (G + B));Vegetation;['N' 'B' 'G'];http://www.sciencedirect.com/science/article/pii/S1672630807600274;https://www.indexdatabase.de/db/i-single.php?id=186
-GCC;Green Chromatic Coordinate;G / (R + G + B);Vegetation;['R' 'B' 'G'];https://doi.org/10.1016/0034-4257(87)90088-5;
-GDVI;Generalized Difference Vegetation Index;((N ** nexp) - (R ** nexp)) / ((N ** nexp) + (R ** nexp));Vegetation;['N' 'nexp' 'R'];https://doi.org/10.3390/rs6021211;https://www.indexdatabase.de/db/i-single.php?id=27
-GEMI;Global Environment Monitoring Index;((2.0*((N ** 2.0)-(R ** 2.0)) + 1.5*N + 0.5*R)/(N + R + 0.5))*(1.0 - 0.25*((2.0 * ((N ** 2.0) - (R ** 2)) + 1.5 * N + 0.5 * R)/(N + R + 0.5)))-((R - 0.125)/(1 - R));Vegetation;['N' 'R'];http://dx.doi.org/10.1007/bf00031911;https://www.indexdatabase.de/search/?s=GEMI
-GI;Simple Ratio 554/677 Greenness Index;G / R;Vegetation Vegetation-Chlorophyll;['G' 'R'];;
-GLI;Green Leaf Index;(2.0 * G - R - B) / (2.0 * G + R + B);Agriculture Agriculture - Crop parameters Vegetation Vegetation-Chlorophyll;['G' 'R' 'B'];http://dx.doi.org/10.1080/10106040108542184;https://www.indexdatabase.de/db/i-single.php?id=375
-GNDVI;Green Normalized Difference Vegetation Index;(N - G) / (N + G);Vegetation Vegetation-Chlorophyll;['N' 'G'];https://doi.org/10.1016/S0034-4257(96)00072-7;https://www.indexdatabase.de/db/i-single.php?id=401
-GNDVI740.560;Green Normalized Difference Vegetation Index;(RE2 - G) / (RE2 + G);Vegetation Vegetation-Chlorophyll;['RE2' 'G'];;
-GNDVI865.560;Green Normalized Difference Vegetation Index;(RE4 - G) / (RE4 + G);Vegetation Vegetation-Chlorophyll;['RE4' 'G'];;
-GOSAVI;Green Optimized Soil-Adjusted Vegetation Index;(N - G) / (N + G + 0.16);Soil Vegetation;['N' 'G'];;https://www.indexdatabase.de/db/i-single.php?id=29
-greenWDRVI;;(0.1 * N - G) / (0.1 * N + G) + (1 - 0.1) / (1 + 0.1);Vegetation;['N' 'G'];;
-GRNDVI;Green-Red Normalized Difference Vegetation Index;(N - (G + R))/(N + (G + R));Vegetation;['N' 'G' 'R'];http://www.sciencedirect.com/science/article/pii/S1672630807600274;https://www.indexdatabase.de/db/i-single.php?id=185
-GRVI;Simple Ratio NIR/G Green Ratio Vegetation Index;N / G;Vegetation;['N' 'G'];https://doi.org/10.1016/S0034-4257(01)00289-9;https://www.indexdatabase.de/db/i-single.php?id=30
-GVI;Tasselled Cap - vegetation;(-0.290 * G - 0.562 * R + 0.600 * RE1 + 0.491 * N);Vegetation;['N' 'G' 'R' 'RE1'];10.1109/TGRS.1984.350619;https://www.indexdatabase.de/db/i-single.php?id=92
-GVMI;Global Vegetation Moisture Index;((N + 0.1) - (S2 + 0.02)) / ((N + 0.1) + (S2 + 0.02));Vegetation;['N' 'S2'];https://doi.org/10.1016/S0034-4257(02)00037-8;https://www.indexdatabase.de/db/i-single.php?id=372
-GVSB;Greenness Vegetation and Soil Brightness;(-0.290 * G - 0.562 * R + 0.600 * RE1 + 0.491 * N)/(0.433 * G - 0.632 * R + 0.586 * RE1 + 0.264 * N);Vegetation;['G' 'R' 'RE1' 'N'];;
-IPVI;Infrared percentage vegetation index;((N / (N + R)) / 2)*((N - R) / (N + R) + 1);Vegetation;['R' 'N'];"	http://www.sciencedirect.com/science/article/pii/003442579090085Z";https://www.indexdatabase.de/db/i-single.php?id=35
-IRECI;Inverted Red-Edge Chlorophyll Index;(RE3 - R) / (RE1 / RE2);Vegetation;['R' 'RE1' 'RE2' 'RE3'];https://doi.org/10.1016/j.isprsjprs.2013.04.007;
-MCARI;Modified Chlorophyll Absorption in Reflectance Index;((RE1 - R) - 0.2 * (RE1 - G)) * (RE1 / R);Vegetation Vegetation-Chlorophyll;['R' 'RE1 'G'];http://dx.doi.org/10.1016/S0034-4257(00)00113-9;https://www.indexdatabase.de/db/i-single.php?id=41
-MCARI1;Modified Chlorophyll Absorption in Reflectance Index 1;1.2 * (2.5 * (N - R) - 1.3 * (N - G));Vegetation;['R' 'N 'G'];https://doi.org/10.1016/j.rse.2003.12.013;
-MCARI2;Modified Chlorophyll Absorption in Reflectance Index 2;(1.5 * (2.5 * (N - R) - 1.3 * (N - G))) / ((((2.0 * N + 1) ** 2) - (6.0 * N - 5 * (R ** 0.5)) - 0.5) ** 0.5);Vegetation;['R' 'N 'G'];https://doi.org/10.1016/j.rse.2003.12.013;
-MCARI705;Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm);((RE2 - RE1) - 0.2 * (RE2 - G)) * (RE2 / RE1);Vegetation;['RE1' 'RE2 'G'];https://doi.org/10.1016/j.agrformet.2008.03.005;
-MCARI740;Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm);((RE2 - RE1)-0.2*(RE2 - G))*(RE2 / RE1) ;Vegetation;['RE1' 'RE2 'G'];;
-MCARI783;Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm);((RE3 - RE1)-0.2*(RE3 - G))*(RE3 / RE1) ;Vegetation;['RE1' 'RE3' 'G'];;
-MCARI842;Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm);((N - RE1) - 0.2 * (N - G))*(N / RE1) ;Vegetation;['RE1' 'N' 'G'];;
-MCARI865;Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm);((RE4 - RE1) - 0.2 * (RE4 - G)) * (RE4 / RE1) ;Vegetation;['RE1' 'RE4' 'G'];;
-MCARIOSAVI;MCARI/OSAVI Ratio;(((RE1 - R) - 0.2 * (RE1 - G)) * (RE1 / R)) / (1.16 * (N - R) / (N + R + 0.16));Vegetation;['RE1'  'R' 'G' 'N'];https://doi.org/10.1016/S0034-4257(00)00113-9;
-MCARIOSAVI705;MCARI/OSAVI Ratio (705 and 750 nm);(((RE2 - RE1) - 0.2 * (RE2 - G)) * (RE2 / RE1)) / (1.16 * (RE2 - RE1) / (RE2 + RE1 + 0.16));Vegetation;['RE2' 'RE1' 'G'];https://doi.org/10.1016/j.agrformet.2008.03.005;
-MCARIOSAVI783;MCARI/OSAVI Ratio (705 and 750 nm);(((RE3 - RE1) - 0.2 * (RE3 - G)) * (RE3 / RE1)) / ((1.16) * (RE3 - RE1) / (RE3 + RE1 + 0.16)) ;Vegetation;['RE3' 'RE1' 'G'];;
-MCARIOSAVI842;MCARI/OSAVI Ratio (705 and 750 nm);(((N - RE1) - 0.2 * (N - G))*(N / RE1))/((1.16) * (N - RE1)/(N + RE1 + 0.16)) ;Vegetation;['RE1' 'G' 'N'];;
-MCARIOSAVI865;MCARI/OSAVI Ratio (705 and 750 nm);(((RE4 - RE1)-0.2 * (RE4 - G)) * (RE4 / RE1)) / ((1.16) * (RE4 - RE1) / (RE4 + RE1 + 0.16)) ;Vegetation;['RE4' 'RE1' 'G'];;
-MGRVI;Modified Green Red Vegetation Index;(G ** 2.0 - R ** 2.0) / (G ** 2.0 + R ** 2.0);Vegetation;['G' 'R'];https://doi.org/10.1016/j.jag.2015.02.012;
-MGVI;Misra Green Vegetation Index;(-0.386 * G - 0.53 * R + 0.535 * RE1 + 0.532 * N);Vegetation;['G' 'R'];;
-MNDVI;Modified Normalized Difference Vegetation Index;(N - S2) / (N + S2);Vegetation;['N' 'S2'];https://doi.org/10.1080/014311697216810;
-MNLI;Modified Non-Linear Vegetation Index;(1 + L)*((N ** 2) - R)/((N ** 2) + R + L);Vegetation;['L' 'N' 'R'];https://doi.org/10.1109/TGRS.2003.812910;
-MNSI;Misra Non Such Index;-0.404 * G - 0.039 * R - 0.505 * RE1 + 0.762 * N;Vegetation;['G' 'RE1''N' 'R'];http://dx.doi.org/10.1080/02757259509532298;https://www.indexdatabase.de/db/i-single.php?id=573
-MSAVI;Modified Soil-Adjusted Vegetation Index;0.5 * (2.0 * N + 1 - (((2 * N + 1) ** 2) - 8 * (N - R)) ** 0.5);Vegetation;['N' 'R'];https://doi.org/10.1016/0034-4257(94)90134-1;https://www.indexdatabase.de/db/i-single.php?id=44
-MSBI;Misra Soil Brightness Index;0.406 * G + 0.600 * R + 0.645 * RE1 + 0.243 * N;Vegetation;['G' 'RE1''N' 'R'];http://dx.doi.org/10.1080/02757259509532298;https://www.indexdatabase.de/db/i-single.php?id=570
-MSR;Modified Simple Ratio;(N / R - 1) / ((N / R + 1) ** 0.5);Vegetation;['N' 'R'];https://doi.org/10.1080/07038992.1996.10855178;
-MSR705;Modified Simple Ratio (705 and 750 nm);(RE2 / RE1 - 1) / ((RE2 / RE1 + 1) ** 0.5);Vegetation;['RE1' 'RE2'];https://doi.org/10.1016/j.agrformet.2008.03.005;
-MTCI;MERIS Terrestrial Chlorophyll Index;(RE2 - RE1) / (RE1 - R);Vegetation;['RE1' 'RE2' 'R'];https://doi.org/10.1080/0143116042000274015;https://www.indexdatabase.de/db/i-single.php?id=169
-MTCI842.705;modified MERIS Terrestrial Chlorophyll Index ( 842 and 705 nm);(N - RE1) / (RE1 - R);Vegetation;['N' 'RE1' 'R'];;
-MTCI865.705;modified MERIS Terrestrial Chlorophyll Index;(RE4 - RE1) / (RE1 - R);Vegetation;['RE4' 'RE1' 'R'];;
-MTVI1;Modified Triangular Vegetation Index 1;1.2 * (1.2 * (N - G) - 2.5 * (R - G));Vegetation;['N' 'G' 'R'];https://doi.org/10.1016/j.rse.2003.12.013;https://www.indexdatabase.de/db/i-single.php?id=46
-MTVI2;Modified Triangular Vegetation Index 2;(1.5 * (1.2 * (N - G) - 2.5 * (R - G))) / ((((2.0 * N + 1) ** 2) - (6.0 * N - 5 * (R ** 0.5)) - 0.5) ** 0.5);Vegetation;['N' 'G' 'R'];https://doi.org/10.1016/j.rse.2003.12.013;https://www.indexdatabase.de/db/i-single.php?id=47
-MYVI;Misra Yellow Vegetation Index;-0.723 * G - 0.597 * R + 0.206 * RE1 - 0.278 * N;Vegetation;['G' 'R' 'RE1' 'N'];http://dx.doi.org/10.1080/02757259509532298;https://www.indexdatabase.de/db/i-single.php?id=572
-NDGI;Normalized Difference Greenness Index;(((lambdaN - lambdaR)/(lambdaN - lambdaG)) * G + (1.0 - ((lambdaN - lambdaR)/(lambdaN - lambdaG))) * N - R)/(((lambdaN - lambdaR)/(lambdaN - lambdaG)) * G + (1.0 - ((lambdaN - lambdaR)/(lambdaN - lambdaG))) * N + R);Vegetation;['lambdaN' 'lambdaR' 'lambdaG' 'N' 'R];https://doi.org/10.1016/j.rse.2019.03.028;
-NDMI;Normalized Difference Moisture Index;(N - S1)/(N + S1);Vegetation;['N' 'S1'];https://doi.org/10.1016/S0034-4257(01)00318-2;https://www.indexdatabase.de/db/i-single.php?id=56
-NDPI;Normalized Difference Phenology Index;(N - (alpha * R + (1.0 - alpha) * S1))/(N + (alpha * R + (1.0 - alpha) * S1));Vegetation Vegetation - Chlorophyll Vegetation - Stress;[N 'alpha'  'R'  'S1'];https://doi.org/10.1016/j.rse.2017.04.031;
-NDRE;Normalized Difference Red Edge Index;(N - RE1) / (N + RE1);Vegetation;['N' 'RE1'];https://doi.org/10.1016/1011-1344(93)06963-4;https://www.indexdatabase.de/db/i-single.php?id=223
-NDRE783.705;Normalized Difference Red Edge Index (783 and 705 nm);(RE3 - RE1) / (RE3 + RE1);Vegetation;['RE3' 'RE1'];;
-NDVI;Normalized Difference Vegetation Index;(N - R)/(N + R);Vegetation;['N' 'R'];https://doi.org/10.1016/0034-4257(79)90013-0;https://www.indexdatabase.de/db/i-single.php?id=58
-NDVI705;Normalized Difference Vegetation Index (705 and 750 nm);(RE2 - RE1) / (RE2 + RE1);Vegetation;['RE2' 'RE1'];https://doi.org/10.1016/S0176-1617(11)81633-0;
-NDVI740.665;Normalized Difference Vegetation Index (705 and 750 nm);(RE2 - R) / (RE2 + R);Vegetation;['RE2' 'R'];;
-NDVI865.665;Normalized Difference Vegetation Index (705 and 750 nm);(RE4 - R) / (RE4 + R);Vegetation;['RE4' 'R'];;
-NDYI;Normalized Difference Yellowness Index;(G - B) / (G + B);Vegetation;['G'  'B'];https://doi.org/10.1016/j.rse.2016.06.016;
-NGBDI;Normalized Green Blue Difference Index;(G - R) / (G + B);Vegetation;['G' 'R' 'B'];;
-NGRDI;Normalized Green Red Difference Index;(G - R) / (G + R);Vegetation;['G'  'R'];https://doi.org/10.1016/0034-4257(79)90013-0;https://www.indexdatabase.de/db/i-single.php?id=390
-NIDI;Normalized infrared difference index;(N - RE2) / (N + RE2);Vegetation;['N'  'RE2'];;
-NIDI783.740;Normalized infrared difference index;(RE3 - RE2) / (RE3 + RE2);Vegetation;['RE3' 'RE2'];;
-NIDI842.783;Normalized infrared difference index;(N - RE3) / (N + RE3);Vegetation;['N'  'RE3'];;
-NIDI865.740;Normalized infrared difference index;(RE4 - RE2) / (RE4 + RE2);Vegetation;['RE4' 'RE2'];;
-NIDI865.783;Normalized infrared difference index;(RE4 - RE3) / (RE4 + RE3);Vegetation;['RE4' 'RE3'];;
-NIDI865.842;Normalized infrared difference index;(RE4 - N) / (RE4 + N);Vegetation;['RE4' 'N'];;
-NIRv;Near-Infrared Reflectance of Vegetation;((N - R) / (N + R)) * N;Vegetation;['N'  'R'];https://doi.org/10.1126/sciadv.1602244;
-NLI;Non-Linear Vegetation Index;((N ** 2) - R)/((N ** 2) + R);Vegetation;['N'  'R'];https://doi.org/10.1080/02757259409532252;https://www.indexdatabase.de/db/i-single.php?id=111
-NPCI;Normalized Pigment Chlorophyll Index;(RE1 - B) / (RE1 + B);Vegetation Vegetation - Chlorophyll;['RE1'  'B'];;
-NRFIg;Normalized Rapeseed Flowering Index Green;(G - S2) / (G + S2);Vegetation;['G'  'S2'];;
-NRFIr;Normalized Rapeseed Flowering Index Red;(R - S2) / (R + S2);Vegetation;['R'  'S2'];;
-NSI;Tasselled Cap - Non Such Index MSS;(-0.016 * G + 0.131 * R - 0.425 * RE1+ 0.882 * N);Vegetation;['G'  'R' 'RE1 'N');;
-OCVI;Optimized Chlorophyll Vegetation Index;(N / G) * (R / G) ** cexp;Vegetation;['N' 'G' 'R' 'cexp'];http://dx.doi.org/10.1007/s11119-008-9075-z;
-OSAVI;Optimized Soil-Adjusted Vegetation Index;(1.16) * (N - R) / (N + R + 0.16)  ;Vegetation;['N' 'R'];https://doi.org/10.1016/0034-4257(95)00186-7;https://www.indexdatabase.de/db/i-single.php?id=63
-OSAVI2;Optimized Soil-Adjusted Vegetation Index;(1.16) * (RE2 - RE1) / (RE2 + RE1 +0.16) ;Vegetation;['RE2' 'RE1'];;
-OSAVI2.783;Optimized Soil-Adjusted Vegetation Index;(1.16) * (RE3 - RE1) / (RE3 + RE1 + 0.16) ;Vegetation;['RE3' 'RE1'];;
-OSAVI2.865;Optimized Soil-Adjusted Vegetation Index;(1.16) * (RE4 - RE1) / (RE4 + RE1 + 0.16) ;Vegetation;['RE4'  'RE1'];;
-PNDVI;Pan NDVI;(N - (B + G + R)) / (N + (B + G + R));Vegetation;['N' 'B' 'G'  'R];http://www.sciencedirect.com/science/article/pii/S1672630807600274;
-PSRI;Plant Senescence Reflectance Index;(R - B) / RE2;Vegetation;['R'  'B' 'RE2'];http://dx.doi.org/10.1034/j.1399-3054.1999.106119.x;
-PSRI2;Plant Senescence Reflectance Index 2;(R - B) / RE1;Vegetation;['R' 'B' 'RE1'];;
-RBNDVI;Red-Blue NDVI;(N- (R + B)) / (N + (R + B));Vegetation;['N' 'R' 'B'];;
-RCC;Red Chromatic Coordinate;R / (R + G + B);Vegetation;['R' 'G' 'B'];https://doi.org/10.1016/0034-4257(87)90088-5;
-RDVI;Renormalized Difference Vegetation Index;(N - R) / ((N + R) ** 0.5);Vegetation;['N' 'R'];https://doi.org/10.1016/0034-4257(94)00114-3;https://www.indexdatabase.de/db/i-single.php?id=240
-rededgeWDRVI;rededge Wide Dynamic Range Vegetation Index;(0.1 * N - RE1) / (0.1 * N + RE1) + (1 - 0.1) / (1 + 0.1);Vegetation;['N' 'RE1'];;
-REDSI;Red-Edge Disease Stress Index;((705.0 - 665.0) * (RE3 - R) - (783.0 - 665.0) * (RE1 - R)) / (2.0 * R);Vegetation;['RE3'  'R' 'RE1'];https://doi.org/10.3390/s18030868;
-REP;Red-Edge Position Linear Interpolation;700 + 40 * (((R + RE3) / 2 - RE1) / (RE2 - RE1));Vegetation;['R' 'RE3' 'RE1' 'RE2'];https://www.isprs.org/proceedings/XXVII/congress/part7/750_XXVII-part7-sup.pdf;https://www.indexdatabase.de/db/i-single.php?id=196
-REP740;Red-Edge Position Linear Interpolation;700 + 40 * (((R + RE2) / 2 - RE1) / (RE2 - RE1));Vegetation;['R' 'RE2' 'RE1'];;
-REP842;Red-Edge Position Linear Interpolation;700 + 40 * (((R +N )/ 2 - RE1)/(RE2 - RE1));Vegetation;['R' 'N' 'RE1' 'RE2'];;
-REP865;Red-Edge Position Linear Interpolation;700 + 40 * (((R + RE4) / 2 - RE1) / (RE2 - RE1));Vegetation;['R' 'RE4'  'RE1' 'RE2'];;
-REPle;Red-Edge Position Linear Interpolation;700 + 40 * (((R + RE3 / 2) - RE1) / (RE2 -RE1));Vegetation;['R' 'RE3' 'RE1' 'RE2'];;
-REPli;Red-Edge Position Linear Interpolation;700 + 40 * ((R + RE3 / 2) / (RE2 - RE1));Vegetation;['R'  'RE3' 'RE2' 'RE1'];;
-RI;Normalized Difference Red/Green Redness Index;(R - G) / (R + G);Vegetation;['R'  'G'];;
-RVI;Ratio Vegetation Index;N / R;Vegetation;['N' 'R'];;https://www.indexdatabase.de/db/i-single.php?id=72
-S2REP;Sentinel-2 Red-Edge Position;705.0 + 35.0 * ((((RE3 + R) / 2.0) - RE1) / (RE2 - RE1));Vegetation;['RE3' 'R' 'RE1' 'RE2'];https://doi.org/10.1016/j.isprsjprs.2013.04.007;
-SARVI;Soil Adjusted and Atmospherically Resistant Vegetation Index;(1 + L)*(N - (R - (R - B))) / (N + (R - (R - B)) + L);Soil Vegetation;['L' 'N' 'R' 'B'];https://doi.org/10.1109/36.134076;
-SAVI;Soil-Adjusted Vegetation Index;(1.0 + L) * (N - R) / (N + R + L);Agriculture- Crop parameters Soil Vegetation Vegetation - Biomass;['L' 'N'  'R'];https://doi.org/10.1016/0034-4257(88)90106-X;https://www.indexdatabase.de/db/i-single.php?id=87
-SAVI2;Soil-Adjusted Vegetation Index 2;N / (R + (slb / sla));Vegetation;['N' 'R' 'slb' 'sla'];https://doi.org/10.1080/01431169008955053;https://www.indexdatabase.de/db/i-single.php?id=310
-SBI;Tasselled Cap - brightness;0.433 * G - 0.632 * R + 0.586 * RE1 + 0.264 * N;Vegetation;['G' 'R' 'RE1' 'N'];;
-SeLI;Sentinel-2 LAI Green Index;(RE4 - RE1) / (RE4 + RE1);Vegetation;['RE4'  'RE1'];https://doi.org/10.3390/s19040904;
-SIPI 1;Structure Insensitive Pigment Index 1;(N - A) / (N - R);Vegetation Vegetation - Chlorophyll;['N' 'A' 'R'];https://eurekamag.com/research/009/395/009395053.php;
-SIPI 2;Structure Insensitive Pigment Index 2;(N - B) / (N - R);Vegetation Vegetation - Chlorophyll;['N' 'B'  'R'];;
-SR;Simple Ratio;N / R;Vegetation;['N' 'R'];https://doi.org/10.2134/agronj1968.00021962006000060016x;
-SR555.750;Simple Ratio (555 and 750 nm);RE2 / G;Vegetation;['RE2'  'G'];;
-SR705.750;Simple Ratio 754/704 Datt3;RE2 / RE1;Vegetation;['RE2' 'RE1'];;
-SR740.665;Simple Ratio (740 and 665 nm);RE2 / R;Vegetation;['RE2' 'R'];;
-SR783.665;Simple Ratio (783 and 665 nm);RE3 / R;Vegetation;['RE3' 'R'];;
-SR865.665;Simple Ratio (865 and 665 nm);RE4 / R;Vegetation;['RE4' 'R'];;
-TCARI;Transformed Chlorophyll Absorption in Reflectance Index;3 * ((RE1 - R) - 0.2 * (RE1 - G) * (RE1 / R));Vegetation - Chlorophyll;['RE1' 'R' 'G'];https://doi.org/10.1016/S0034-4257(02)00018-4;
-TCARI740;;3*(((RE2 - RE1) - 0.2 * (RE2 - G)) * (RE2 / RE1)) ;Vegetation - Chlorophyll;['RE2'  'RE1' 'G'];;
-TCARI783;;3*(((RE3 - RE1) -0.2 *( RE3 - G)) * (RE3 / RE1)) ;Vegetation - Chlorophyll;['RE3' 'RE1' 'G'];;
-TCARI842;;3*(((N-RE1)-0.2*(N-G))*(N/RE1)) ;Vegetation - Chlorophyll;['N' 'RE1' 'G'];;
-TCARI865;;3*(((RE4 - RE1) - 0.2 * (RE4 - G))*(RE4 / RE1)) ;Vegetation - Chlorophyll;['RE4' 'RE1' 'G'];;
-TCARIOSAVI;TCARI/OSAVI Ratio;(3 * ((RE1 - R) - 0.2 * (RE1 - G) * (RE1 / R))) / (1.16 * (N - R) / (N + R + 0.16));Vegetation;['RE1' 'R' 'G' 'N'];https://doi.org/10.1016/S0034-4257(02)00018-4;https://www.indexdatabase.de/db/i-single.php?id=191
-TCARIOSAVI705;TCARI/OSAVI Ratio (705 and 750 nm);(3 * ((RE2 - RE1) - 0.2 * (RE2 - G) * (RE2 / RE1))) / (1.16 * (RE2 - RE1) / (RE2 + RE1 + 0.16));Vegetation;['RE2'  'RE1' 'G'];https://doi.org/10.1016/j.agrformet.2008.03.005;https://www.indexdatabase.de/db/i-single.php?id=191
-TCARIOSAVI740;;(3 * ((( RE2 - RE1) - 0.2 * (RE2 - G))*(RE2 / RE1))) / ((1.16) * (RE2 - RE1) / (RE2 + RE1 + 0.16)) ;Vegetation;['RE2' 'RE1' 'G'];;
-TCARIOSAVI783;;(3*(((RE3-RE1)-0.2*(RE3-G))*(RE3/RE1)))/((1+0.16)*(RE3-RE1)/(RE3+RE1+0.16)) ;Vegetation;['RE3' 'RE1'  'G'];;
-TCARIOSAVI842;;(3 * (((N - RE1) - 0.2 * (N - G)) * (N / RE1))) / ((1.16) * (N - RE1) / (N + RE1 + 0.16)) ;Vegetation;['N' 'RE1' 'G'];;
-TCARIOSAVI865;;(3 * (((RE4 - RE1) - 0.2 * (RE4 -G ))*(RE4 / RE1))) / ((1.16) * (RE4 - RE1)/(RE4 + RE1 + 0.16)) ;Vegetation;['RE4' 'RE1' 'G'];;
-TCI;Triangular Chlorophyll Index;1.2 * (RE1 - G) - 1.5 * (R - G) * (RE1 / R) ** 0.5;Vegetation Vegetation - Chlorophyll;['RE1' 'G' 'R'];http://dx.doi.org/10.1109/TGRS.2007.904836;https://www.indexdatabase.de/db/i-single.php?id=392
-TGI;Triangular Greenness Index;-(-0.5*((R-B)*(R-G)-(R-G)*(R-B)));Vegetation;['R' 'B' 'G'];http://dx.doi.org/10.1016/j.jag.2012.07.020;https://www.indexdatabase.de/db/i-single.php?id=388
-TNDVI;Trasformed NDVI;-sqrt(0.5 + (N-R)/(N+R));Vegetation;['N' 'R'];;https://www.indexdatabase.de/db/i-single.php?id=202
-TRBI;Three Ratio Band Index;(G + R) / N;Vegetation;['G' 'R' 'N'];;
-TRRVI;Transformed Red Range Vegetation Index;((RE2 - R) / (RE2 + R)) / (((N - R) / (N + R)) + 1.0);Vegetation;['RE2' 'R' 'N'];https://doi.org/10.3390/rs12152359;
-TSAVI;Transformed Soil-Adjusted Vegetation Index;sla * (N - sla * R - slb) / (sla * N + R - sla * slb);Vegetation;['sla ' 'N' 'R' 'slb'];https://doi.org/10.1109/IGARSS.1989.576128;https://www.indexdatabase.de/db/i-single.php?id=97
-TTVI;Transformed Triangular Vegetation Index;0.5 * ((865.0 - 740.0) * (RE3 - RE2) - (RE4 - RE2) * (783.0 - 740));Vegetation;['RE3' 'RE2' 'RE4'] ;https://doi.org/10.3390/rs12010016;
-TVI;Triangular Vegetation Index;0.5 * (120 * (N - G) - 200 * (R - G));Vegetation;['N' 'G'  'R'];http://dx.doi.org/10.1016/S0034-4257(00)00197-8;https://www.indexdatabase.de/db/i-single.php?id=98
-VARI700;Visible Atmospherically Resistant Index (700 nm);(RE1 - 1.7 * R + 0.7 * B) / (RE1 + 1.3 * R - 1.3 * B);Vegetation;['RE1'  'R' 'B'];https://doi.org/10.1016/S0034-4257(01)00289-9;https://www.indexdatabase.de/db/i-single.php?id=359
-VARIgreen;Visible Atmospherically Resistant Index;(G - R) / (G + R - B);Vegetation;['G'  'R' 'B'];;https://www.indexdatabase.de/db/i-single.php?id=356
-VARIrededge;Visible Atmospherically Resistant Index Red-Edge;(RE1 - R) / (RE1 + R);Vegetation;['RE1'  'R];https://doi.org/10.1016/S0034-4257(01)00289-9;https://www.indexdatabase.de/db/i-single.php?id=130
-VIG;Vegetation Index Green;(G - R) / (G + R);Vegetation;['G'  'R];https://doi.org/10.1016/S0034-4257(01)00289-9;
-WDRVI;Wide Dynamic Range Vegetation Index;(alpha * N - R) / (alpha * N + R);Vegetation;['alpha' 'N'  'R];https://doi.org/10.1078/0176-1617-01176;https://www.indexdatabase.de/db/i-single.php?id=125
-WDRVI2;;(0.1 * N - R) / (0.1 * N + R) + (1 - 0.1) / (1 + 0.1);Vegetation;['N' 'R];;
-WDRVI3;;(0.2*N-R)/(0.2*N+R)+(1-0.2)/(1+0.2);Vegetation;['N' 'R];;
-WDRVI740;;alpha * RE2 - R) / (alpha * RE2 + R) ;Vegetation;['alpha' 'RE2' 'R];;
-WDRVI783;;(alpha * RE3 - R) / (alpha * RE3 + R) ;Vegetation;['alpha' 'RE3' 'R];;
-WDRVI842;;(0.1 * N - R) / (0.1 * N + R) ;Vegetation;['N' 'R'];;
-WDVI;Weighted Difference Vegetation Index;N - sla * R;Vegetation;['N' 'sla' 'R'];https://doi.org/10.1016/0034-4257(89)90076-X;https://www.indexdatabase.de/db/i-single.php?id=104
-YVI;Tasselled Cap - Yellow Vegetation Index MSS;(-0.829 * G - 0.522 * R + 0.039 * RE1 + 0.149 * N);Vegetation;['G' 'R' 'RE1' 'N'];;
-Datt5; Simple Ratio 672/550 Datt5;R / G;Vegetation Vegetation - Chlorophyll;['R' 'G'];http://www.sciencedirect.com/science/article/pii/S0034425798000467;https://www.indexdatabase.de/db/i-single.php?id=154
-Datt2;Simple Ratio 850/710 Datt2;N / RE1;Vegetation Vegetation - Chlorophyll;['N' 'RE1'];http://www.sciencedirect.com/science/article/pii/S092427161100089X;https://www.indexdatabase.de/db/i-single.php?id=151
-Datt6;Datt6;N / (G * RE1);Vegetation Vegetation - Chlorophyll;['N' 'G' 'RE1'];http://www.sciencedirect.com/science/article/pii/S0034425798000467;https://www.indexdatabase.de/db/i-single.php?id=155
-Datt4;Datt4;R /( G * RE1);Vegetation Vegetation - Chlorophyll;['R' 'G' 'RE1'];"	http://www.sciencedirect.com/science/article/pii/S0034425798000467";https://www.indexdatabase.de/db/i-single.php?id=153
-AWEInsh;Automated Water Extraction Index;4.0 * (G - S1) - 0.25 * N + 2.75 * S2;water;['G' 'S1' 'N' 'S2'];;
-AWEIsh;Automated Water Extraction Index with Shadows Elimination;B + 2.5 * G - 1.5 * (N + S1) - 0.25 * S2;water;[B G N S1 S2];;
-MBWI;Multi-Band Water Index;(omega * G) - R - N - S1 - S2;water;[omega 'G'  'R' 'N' 'S1' 'S2'];;
-MNDWI;Modified Normalized Difference Water Index;(G - S1) / (G + S1);water;['G'  'S1'];;
-NDVIMNDWI;NDVI-MNDWI Model;((N - R)/(N + R)) - ((G - S1)/(G + S1));water;['N' 'R' 'G' 'S1'];;
-NDWI;Normalized Difference Water Index;(N - S1) / (N + S1);Vegetation Vegetation - Water;['N' 'S1'];"	http://www.sciencedirect.com/science/article/pii/S0034425796000673";https://www.indexdatabase.de/db/i-single.php?id=60
-NWI;New Water Index;(B - (N + S1 + S2))/(B + (N + S1 + S2));water;['B' 'N' 'S1' 'S2'];;
-WI1;Water Index 1;(G - S2) / (G + S2);water;['G' 'S2'];;
-WI2;Water Index 2;(B - S2) / (B + S2);water;['B' 'S2'];;
-WRI;Water Ratio Index;(G + R)/(N + S1);water;['G' 'R' 'N' 'S1'];;
-Datt1;Datt1;(N - RE1) / (N + R);Vegetation Vegetation - Chlorophyll;['N' 'R' 'RE1'];http://dx.doi.org/10.1071/BT98042;https://www.indexdatabase.de/db/i-single.php?id=150
+short_name,long_name,formula,Applications,Bands,References,Index DataBase
+AFRI1600,Aerosol Free Vegetation Index (1600 nm),(N - 0.66 * S1) / (N + 0.66 * S1),Fire Forestry Vegetation,['N' 'S1'],https://doi.org/10.1016/S0034-4257(01)00190-0,https://www.indexdatabase.de/db/i-single.php?id=393
+AFRI2100,Aerosol Free Vegetation Index (2100 nm),(N - 0.5 * S2) / (N + 0.5 * S2),Fire Forestry Vegetation,['N' 'S2'],https://doi.org/10.1016/S0034-4257(01)00190-0,https://www.indexdatabase.de/db/i-single.php?id=395
+ARI,Anthocyanin Reflectance Index,(1 / G) - (1 / RE1),Vegetation Vegetation-stress,['G' 'RE1'],https://doi.org/10.1562/0031-8655(2001)074%3C0038:OPANEO%3E2.0.CO,https://www.indexdatabase.de/db/i-single.php?id=214
+ARVI,Atmospherically Resistant Vegetation Index,(N - (R - gamma * (R - B))) / (N + (R - gamma * (R - B))),Agriculture Vegetation Vegetation-Vitality,['gamma' 'N' 'R' 'B'],https://doi.org/10.1109/36.134076,https://www.indexdatabase.de/db/i-single.php?id=4
+ATSAVI,Adjusted Transformed Soil-Adjusted Vegetation Index,sla * (N - sla * R - slb) / (sla * N + R - sla * slb + 0.08 * (1 + sla ** 2.0)),Soil Vegetation,['sla''slb' 'N' 'R'],https://doi.org/10.1016/0034-4257(91)90009-U,https://www.indexdatabase.de/db/i-single.php?id=209
+BCC,Blue Chromatic Coordinate,B / (R + G + B),Vegetation,['B' 'R' 'G'],https://doi.org/10.1016/0034-4257(87)90088-5,
+BGI,Simple Ratio 450/550 Blue green pigment index,B / R,Vegetation,['B' 'R'],https://doi.org/10.1016/j.rse.2005.09.002,https://www.indexdatabase.de/db/i-single.php?id=210
+BNDVI,Blue Normalized Difference Vegetation Index,(N - B)/(N + B),Vegetation,['N' 'B'],https://doi.org/10.1007/s11119-004-5319-8,https://www.indexdatabase.de/db/i-single.php?id=135
+BWDRVI,Blue Wide Dynamic Range Vegetation Index,(alpha * N - B) / (alpha * N + B),Vegetation,['N' 'B' 'alpha'],https://doi.org/10.2135/cropsci2007.01.0031,https://www.indexdatabase.de/db/i-single.php?id=136
+CCCI,Canopy Chlorophyll Content Index,((N - RE1) / (N + RE1))/(( N - R)/(N + R)),Agriculture Agriculture - Precision Crop Management Vegetation Vegetation-Chlorophyll,['N' 'RE1' 'R'],https://doi.org/10.1016/j.fcr.2013.12.018,https://www.indexdatabase.de/db/i-single.php?id=224
+CIgreen,Chlorophyll Index Green,(N / G) - 1.0,Vegetation Vegetation-Chlorophyll Vegetation - LAI,['N' 'G'],https://doi.org/10.1078/0176-1617-00887,https://www.indexdatabase.de/db/i-single.php?id=128
+CIgreen740.560,Chlorophyll Index Green,(RE2 / G) - 1.0,Vegetation Vegetation-Chlorophyll Vegetation - LAI,['RE2' 'G'],,
+CIgreen783.560,Chlorophyll Index Green,(RE3 / G) - 1.0,Vegetation Vegetation-Chlorophyll Vegetation - LAI,['RE3' 'G'],,
+CIgreen865.560,Chlorophyll Index Green,(RE4 / G) - 1.0,Vegetation Vegetation-Chlorophyll Vegetation - LAI,['RE4' 'G'],,
+CIre,Chlorophyll Index Red Edge,(N / RE1) - 1.0,Vegetation Vegetation-Chlorophyll Vegetation - LAI,['RE1' 'N'],https://doi.org/10.1078/0176-1617-00887,https://www.indexdatabase.de/db/i-single.php?id=131
+CIre740.705,Chlorophyll Index Red Edge,(RE2 / RE1) - 1.0,Vegetation Vegetation-Chlorophyll Vegetation - LAI,['RE1' 'RE2'],,
+CIre783.705,Chlorophyll Index Red Edge,(RE3 / RE1) - 1.0,Vegetation Vegetation-Chlorophyll Vegetation - LAI,['RE1' 'RE3'],,
+CIre865.705,Chlorophyll Index Red Edge,(RE4 / RE1) - 1.0,Vegetation Vegetation-Chlorophyll Vegetation - LAI,['RE1' 'RE4'],,
+CVI,Chlorophyll Vegetation Index,(N / G) * (R / G),Agriculture Vegetation Vegetation-Chlorophyll,['N' 'R' 'G'],https://doi.org/10.1007/s11119-008-9075-z,https://www.indexdatabase.de/db/i-single.php?id=391
+CVI705,modifed Chlorophyll Vegetation Index,(RE1 / G) * (R / G),vegetation,['RE1' 'R' 'G'],,
+CVI740,modifed Chlorophyll Vegetation Index,(RE2 / G) * (R / G),vegetation,['RE2' 'R' 'G'],,
+CVI783,modifed Chlorophyll Vegetation Index,(RE3 / G) * (R / G),vegetation,['RE3' 'R' 'G'],,
+CVI865,modifed Chlorophyll Vegetation Index,(RE4 / G) * (R / G),vegetation,['RE3' 'R' 'G'],,
+DVI,Difference Vegetation Index,N - R,vegetation,['N' 'R'],https://doi.org/10.2307/1936256,
+EVI,Enhanced Vegetation Index,g * (N - R) / (N + C1 * R - C2 * B + L),Vegetation Vegetation - Biomass Vegetation - LAI,['g' 'N' 'R' 'C1' 'C2' 'L'],https://doi.org/10.1016/S0034-4257(96)00112-5,https://www.indexdatabase.de/db/i-single.php?id=16
+EVI2,Two-Band Enhanced Vegetation Index,g * (N - R) / (N + 2.4 * R + L),Vegetation Vegetation - Biomass Vegetation - LAI,['g' 'N' 'R' 'L'],https://doi.org/10.1016/j.rse.2008.06.006,https://www.indexdatabase.de/db/i-single.php?id=576
+EVI740,modified Enhanced Vegetation Index,g*((RE2 - R)/(RE2 + C1 * R - C2 * B + L)),Vegetation Vegetation - Biomass Vegetation - LAI,['g' 'RE2' 'R' 'C1' 'C2' 'B' 'L'],,
+EVI783,modified Enhanced Vegetation Index,g*((RE3 - R)/(RE3 + C1 *R - C2 * B + L)),Vegetation Vegetation - Biomass Vegetation - LAI,['g' 'RE3' 'R' 'C1' 'C2' 'B' 'L'],,
+EVI865,modified Enhanced Vegetation Index,g * ((RE4 - R)/(RE4 + C1 *R - C2 *B + L),Vegetation Vegetation - Biomass Vegetation - LAI,['g' 'RE4' 'R' 'C1' 'C2' 'B' 'L'],,
+ExG,Excess Green Index,2 * G - (R + B),Vegetation,['B' 'R' 'G'],https://doi.org/10.13031/2013.27838,
+FCVI,Fluorescence Correction Vegetation Index,N - ((R + G + B) / 3.0),Vegetation,['N' 'B' 'R' 'G'],https://doi.org/10.1016/j.rse.2020.111676,
+GARI,Green Atmospherically Resistant Vegetation Index,(N - (G - (B - R))) / (N - (G + (B - R))),Vegetation,['N' 'B' 'R' 'G'],https://doi.org/10.1016/s0034-4257(96)00072-7,https://www.indexdatabase.de/db/i-single.php?id=363
+GBNDVI,Green-Blue Normalized Difference Vegetation Index,(N - (G + B))/(N + (G + B)),Vegetation,['N' 'B' 'G'],http://www.sciencedirect.com/science/article/pii/S1672630807600274,https://www.indexdatabase.de/db/i-single.php?id=186
+GCC,Green Chromatic Coordinate,G / (R + G + B),Vegetation,['R' 'B' 'G'],https://doi.org/10.1016/0034-4257(87)90088-5,
+GDVI,Generalized Difference Vegetation Index,((N ** nexp) - (R ** nexp)) / ((N ** nexp) + (R ** nexp)),Vegetation,['N' 'nexp' 'R'],https://doi.org/10.3390/rs6021211,https://www.indexdatabase.de/db/i-single.php?id=27
+GEMI,Global Environment Monitoring Index,((2.0*((N ** 2.0)-(R ** 2.0)) + 1.5*N + 0.5*R)/(N + R + 0.5))*(1.0 - 0.25*((2.0 * ((N ** 2.0) - (R ** 2)) + 1.5 * N + 0.5 * R)/(N + R + 0.5)))-((R - 0.125)/(1 - R)),Vegetation,['N' 'R'],http://dx.doi.org/10.1007/bf00031911,https://www.indexdatabase.de/search/?s=GEMI
+GI,Simple Ratio 554/677 Greenness Index,G / R,Vegetation Vegetation-Chlorophyll,['G' 'R'],,
+GLI,Green Leaf Index,(2.0 * G - R - B) / (2.0 * G + R + B),Agriculture Agriculture - Crop parameters Vegetation Vegetation-Chlorophyll,['G' 'R' 'B'],http://dx.doi.org/10.1080/10106040108542184,https://www.indexdatabase.de/db/i-single.php?id=375
+GNDVI,Green Normalized Difference Vegetation Index,(N - G) / (N + G),Vegetation Vegetation-Chlorophyll,['N' 'G'],https://doi.org/10.1016/S0034-4257(96)00072-7,https://www.indexdatabase.de/db/i-single.php?id=401
+GNDVI740.560,Green Normalized Difference Vegetation Index,(RE2 - G) / (RE2 + G),Vegetation Vegetation-Chlorophyll,['RE2' 'G'],,
+GNDVI865.560,Green Normalized Difference Vegetation Index,(RE4 - G) / (RE4 + G),Vegetation Vegetation-Chlorophyll,['RE4' 'G'],,
+GOSAVI,Green Optimized Soil-Adjusted Vegetation Index,(N - G) / (N + G + 0.16),Soil Vegetation,['N' 'G'],,https://www.indexdatabase.de/db/i-single.php?id=29
+greenWDRVI,,(0.1 * N - G) / (0.1 * N + G) + (1 - 0.1) / (1 + 0.1),Vegetation,['N' 'G'],,
+GRNDVI,Green-Red Normalized Difference Vegetation Index,(N - (G + R))/(N + (G + R)),Vegetation,['N' 'G' 'R'],http://www.sciencedirect.com/science/article/pii/S1672630807600274,https://www.indexdatabase.de/db/i-single.php?id=185
+GRVI,Simple Ratio NIR/G Green Ratio Vegetation Index,N / G,Vegetation,['N' 'G'],https://doi.org/10.1016/S0034-4257(01)00289-9,https://www.indexdatabase.de/db/i-single.php?id=30
+GVI,Tasselled Cap - vegetation,(-0.290 * G - 0.562 * R + 0.600 * RE1 + 0.491 * N),Vegetation,['N' 'G' 'R' 'RE1'],10.1109/TGRS.1984.350619,https://www.indexdatabase.de/db/i-single.php?id=92
+GVMI,Global Vegetation Moisture Index,((N + 0.1) - (S2 + 0.02)) / ((N + 0.1) + (S2 + 0.02)),Vegetation,['N' 'S2'],https://doi.org/10.1016/S0034-4257(02)00037-8,https://www.indexdatabase.de/db/i-single.php?id=372
+GVSB,Greenness Vegetation and Soil Brightness,(-0.290 * G - 0.562 * R + 0.600 * RE1 + 0.491 * N)/(0.433 * G - 0.632 * R + 0.586 * RE1 + 0.264 * N),Vegetation,['G' 'R' 'RE1' 'N'],,
+IPVI,Infrared percentage vegetation index,((N / (N + R)) / 2)*((N - R) / (N + R) + 1),Vegetation,['R' 'N'],"	http://www.sciencedirect.com/science/article/pii/003442579090085Z",https://www.indexdatabase.de/db/i-single.php?id=35
+IRECI,Inverted Red-Edge Chlorophyll Index,(RE3 - R) / (RE1 / RE2),Vegetation,['R' 'RE1' 'RE2' 'RE3'],https://doi.org/10.1016/j.isprsjprs.2013.04.007,
+MCARI,Modified Chlorophyll Absorption in Reflectance Index,((RE1 - R) - 0.2 * (RE1 - G)) * (RE1 / R),Vegetation Vegetation-Chlorophyll,['R' 'RE1 'G'],http://dx.doi.org/10.1016/S0034-4257(00)00113-9,https://www.indexdatabase.de/db/i-single.php?id=41
+MCARI1,Modified Chlorophyll Absorption in Reflectance Index 1,1.2 * (2.5 * (N - R) - 1.3 * (N - G)),Vegetation,['R' 'N 'G'],https://doi.org/10.1016/j.rse.2003.12.013,
+MCARI2,Modified Chlorophyll Absorption in Reflectance Index 2,(1.5 * (2.5 * (N - R) - 1.3 * (N - G))) / ((((2.0 * N + 1) ** 2) - (6.0 * N - 5 * (R ** 0.5)) - 0.5) ** 0.5),Vegetation,['R' 'N 'G'],https://doi.org/10.1016/j.rse.2003.12.013,
+MCARI705,Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm),((RE2 - RE1) - 0.2 * (RE2 - G)) * (RE2 / RE1),Vegetation,['RE1' 'RE2 'G'],https://doi.org/10.1016/j.agrformet.2008.03.005,
+MCARI740,Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm),((RE2 - RE1)-0.2*(RE2 - G))*(RE2 / RE1) ,Vegetation,['RE1' 'RE2 'G'],,
+MCARI783,Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm),((RE3 - RE1)-0.2*(RE3 - G))*(RE3 / RE1) ,Vegetation,['RE1' 'RE3' 'G'],,
+MCARI842,Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm),((N - RE1) - 0.2 * (N - G))*(N / RE1) ,Vegetation,['RE1' 'N' 'G'],,
+MCARI865,Modified Chlorophyll Absorption in Reflectance Index (705 and 750 nm),((RE4 - RE1) - 0.2 * (RE4 - G)) * (RE4 / RE1) ,Vegetation,['RE1' 'RE4' 'G'],,
+MCARIOSAVI,MCARI/OSAVI Ratio,(((RE1 - R) - 0.2 * (RE1 - G)) * (RE1 / R)) / (1.16 * (N - R) / (N + R + 0.16)),Vegetation,['RE1'  'R' 'G' 'N'],https://doi.org/10.1016/S0034-4257(00)00113-9,
+MCARIOSAVI705,MCARI/OSAVI Ratio (705 and 750 nm),(((RE2 - RE1) - 0.2 * (RE2 - G)) * (RE2 / RE1)) / (1.16 * (RE2 - RE1) / (RE2 + RE1 + 0.16)),Vegetation,['RE2' 'RE1' 'G'],https://doi.org/10.1016/j.agrformet.2008.03.005,
+MCARIOSAVI783,MCARI/OSAVI Ratio (705 and 750 nm),(((RE3 - RE1) - 0.2 * (RE3 - G)) * (RE3 / RE1)) / ((1.16) * (RE3 - RE1) / (RE3 + RE1 + 0.16)) ,Vegetation,['RE3' 'RE1' 'G'],,
+MCARIOSAVI842,MCARI/OSAVI Ratio (705 and 750 nm),(((N - RE1) - 0.2 * (N - G))*(N / RE1))/((1.16) * (N - RE1)/(N + RE1 + 0.16)) ,Vegetation,['RE1' 'G' 'N'],,
+MCARIOSAVI865,MCARI/OSAVI Ratio (705 and 750 nm),(((RE4 - RE1)-0.2 * (RE4 - G)) * (RE4 / RE1)) / ((1.16) * (RE4 - RE1) / (RE4 + RE1 + 0.16)) ,Vegetation,['RE4' 'RE1' 'G'],,
+MGRVI,Modified Green Red Vegetation Index,(G ** 2.0 - R ** 2.0) / (G ** 2.0 + R ** 2.0),Vegetation,['G' 'R'],https://doi.org/10.1016/j.jag.2015.02.012,
+MGVI,Misra Green Vegetation Index,(-0.386 * G - 0.53 * R + 0.535 * RE1 + 0.532 * N),Vegetation,['G' 'R'],,
+MNDVI,Modified Normalized Difference Vegetation Index,(N - S2) / (N + S2),Vegetation,['N' 'S2'],https://doi.org/10.1080/014311697216810,
+MNLI,Modified Non-Linear Vegetation Index,(1 + L)*((N ** 2) - R)/((N ** 2) + R + L),Vegetation,['L' 'N' 'R'],https://doi.org/10.1109/TGRS.2003.812910,
+MNSI,Misra Non Such Index,-0.404 * G - 0.039 * R - 0.505 * RE1 + 0.762 * N,Vegetation,['G' 'RE1''N' 'R'],http://dx.doi.org/10.1080/02757259509532298,https://www.indexdatabase.de/db/i-single.php?id=573
+MSAVI,Modified Soil-Adjusted Vegetation Index,0.5 * (2.0 * N + 1 - (((2 * N + 1) ** 2) - 8 * (N - R)) ** 0.5),Vegetation,['N' 'R'],https://doi.org/10.1016/0034-4257(94)90134-1,https://www.indexdatabase.de/db/i-single.php?id=44
+MSBI,Misra Soil Brightness Index,0.406 * G + 0.600 * R + 0.645 * RE1 + 0.243 * N,Vegetation,['G' 'RE1''N' 'R'],http://dx.doi.org/10.1080/02757259509532298,https://www.indexdatabase.de/db/i-single.php?id=570
+MSR,Modified Simple Ratio,(N / R - 1) / ((N / R + 1) ** 0.5),Vegetation,['N' 'R'],https://doi.org/10.1080/07038992.1996.10855178,
+MSR705,Modified Simple Ratio (705 and 750 nm),(RE2 / RE1 - 1) / ((RE2 / RE1 + 1) ** 0.5),Vegetation,['RE1' 'RE2'],https://doi.org/10.1016/j.agrformet.2008.03.005,
+MTCI,MERIS Terrestrial Chlorophyll Index,(RE2 - RE1) / (RE1 - R),Vegetation,['RE1' 'RE2' 'R'],https://doi.org/10.1080/0143116042000274015,https://www.indexdatabase.de/db/i-single.php?id=169
+MTCI842.705,modified MERIS Terrestrial Chlorophyll Index ( 842 and 705 nm),(N - RE1) / (RE1 - R),Vegetation,['N' 'RE1' 'R'],,
+MTCI865.705,modified MERIS Terrestrial Chlorophyll Index,(RE4 - RE1) / (RE1 - R),Vegetation,['RE4' 'RE1' 'R'],,
+MTVI1,Modified Triangular Vegetation Index 1,1.2 * (1.2 * (N - G) - 2.5 * (R - G)),Vegetation,['N' 'G' 'R'],https://doi.org/10.1016/j.rse.2003.12.013,https://www.indexdatabase.de/db/i-single.php?id=46
+MTVI2,Modified Triangular Vegetation Index 2,(1.5 * (1.2 * (N - G) - 2.5 * (R - G))) / ((((2.0 * N + 1) ** 2) - (6.0 * N - 5 * (R ** 0.5)) - 0.5) ** 0.5),Vegetation,['N' 'G' 'R'],https://doi.org/10.1016/j.rse.2003.12.013,https://www.indexdatabase.de/db/i-single.php?id=47
+MYVI,Misra Yellow Vegetation Index,-0.723 * G - 0.597 * R + 0.206 * RE1 - 0.278 * N,Vegetation,['G' 'R' 'RE1' 'N'],http://dx.doi.org/10.1080/02757259509532298,https://www.indexdatabase.de/db/i-single.php?id=572
+NDGI,Normalized Difference Greenness Index,(((lambdaN - lambdaR)/(lambdaN - lambdaG)) * G + (1.0 - ((lambdaN - lambdaR)/(lambdaN - lambdaG))) * N - R)/(((lambdaN - lambdaR)/(lambdaN - lambdaG)) * G + (1.0 - ((lambdaN - lambdaR)/(lambdaN - lambdaG))) * N + R),Vegetation,['lambdaN' 'lambdaR' 'lambdaG' 'N' 'R],https://doi.org/10.1016/j.rse.2019.03.028,
+NDMI,Normalized Difference Moisture Index,(N - S1)/(N + S1),Vegetation,['N' 'S1'],https://doi.org/10.1016/S0034-4257(01)00318-2,https://www.indexdatabase.de/db/i-single.php?id=56
+NDPI,Normalized Difference Phenology Index,(N - (alpha * R + (1.0 - alpha) * S1))/(N + (alpha * R + (1.0 - alpha) * S1)),Vegetation Vegetation - Chlorophyll Vegetation - Stress,[N 'alpha'  'R'  'S1'],https://doi.org/10.1016/j.rse.2017.04.031,
+NDRE,Normalized Difference Red Edge Index,(N - RE1) / (N + RE1),Vegetation,['N' 'RE1'],https://doi.org/10.1016/1011-1344(93)06963-4,https://www.indexdatabase.de/db/i-single.php?id=223
+NDRE783.705,Normalized Difference Red Edge Index (783 and 705 nm),(RE3 - RE1) / (RE3 + RE1),Vegetation,['RE3' 'RE1'],,
+NDVI,Normalized Difference Vegetation Index,(N - R)/(N + R),Vegetation,['N' 'R'],https://doi.org/10.1016/0034-4257(79)90013-0,https://www.indexdatabase.de/db/i-single.php?id=58
+NDVI705,Normalized Difference Vegetation Index (705 and 750 nm),(RE2 - RE1) / (RE2 + RE1),Vegetation,['RE2' 'RE1'],https://doi.org/10.1016/S0176-1617(11)81633-0,
+NDVI740.665,Normalized Difference Vegetation Index (705 and 750 nm),(RE2 - R) / (RE2 + R),Vegetation,['RE2' 'R'],,
+NDVI865.665,Normalized Difference Vegetation Index (705 and 750 nm),(RE4 - R) / (RE4 + R),Vegetation,['RE4' 'R'],,
+NDYI,Normalized Difference Yellowness Index,(G - B) / (G + B),Vegetation,['G'  'B'],https://doi.org/10.1016/j.rse.2016.06.016,
+NGBDI,Normalized Green Blue Difference Index,(G - R) / (G + B),Vegetation,['G' 'R' 'B'],,
+NGRDI,Normalized Green Red Difference Index,(G - R) / (G + R),Vegetation,['G'  'R'],https://doi.org/10.1016/0034-4257(79)90013-0,https://www.indexdatabase.de/db/i-single.php?id=390
+NIDI,Normalized infrared difference index,(N - RE2) / (N + RE2),Vegetation,['N'  'RE2'],,
+NIDI783.740,Normalized infrared difference index,(RE3 - RE2) / (RE3 + RE2),Vegetation,['RE3' 'RE2'],,
+NIDI842.783,Normalized infrared difference index,(N - RE3) / (N + RE3),Vegetation,['N'  'RE3'],,
+NIDI865.740,Normalized infrared difference index,(RE4 - RE2) / (RE4 + RE2),Vegetation,['RE4' 'RE2'],,
+NIDI865.783,Normalized infrared difference index,(RE4 - RE3) / (RE4 + RE3),Vegetation,['RE4' 'RE3'],,
+NIDI865.842,Normalized infrared difference index,(RE4 - N) / (RE4 + N),Vegetation,['RE4' 'N'],,
+NIRv,Near-Infrared Reflectance of Vegetation,((N - R) / (N + R)) * N,Vegetation,['N'  'R'],https://doi.org/10.1126/sciadv.1602244,
+NLI,Non-Linear Vegetation Index,((N ** 2) - R)/((N ** 2) + R),Vegetation,['N'  'R'],https://doi.org/10.1080/02757259409532252,https://www.indexdatabase.de/db/i-single.php?id=111
+NPCI,Normalized Pigment Chlorophyll Index,(RE1 - B) / (RE1 + B),Vegetation Vegetation - Chlorophyll,['RE1'  'B'],,
+NRFIg,Normalized Rapeseed Flowering Index Green,(G - S2) / (G + S2),Vegetation,['G'  'S2'],,
+NRFIr,Normalized Rapeseed Flowering Index Red,(R - S2) / (R + S2),Vegetation,['R'  'S2'],,
+NSI,Tasselled Cap - Non Such Index MSS,(-0.016 * G + 0.131 * R - 0.425 * RE1+ 0.882 * N),Vegetation,['G'  'R' 'RE1 'N'),,
+OCVI,Optimized Chlorophyll Vegetation Index,(N / G) * (R / G) ** cexp,Vegetation,['N' 'G' 'R' 'cexp'],http://dx.doi.org/10.1007/s11119-008-9075-z,
+OSAVI,Optimized Soil-Adjusted Vegetation Index,(1.16) * (N - R) / (N + R + 0.16)  ,Vegetation,['N' 'R'],https://doi.org/10.1016/0034-4257(95)00186-7,https://www.indexdatabase.de/db/i-single.php?id=63
+OSAVI2,Optimized Soil-Adjusted Vegetation Index,(1.16) * (RE2 - RE1) / (RE2 + RE1 +0.16) ,Vegetation,['RE2' 'RE1'],,
+OSAVI2.783,Optimized Soil-Adjusted Vegetation Index,(1.16) * (RE3 - RE1) / (RE3 + RE1 + 0.16) ,Vegetation,['RE3' 'RE1'],,
+OSAVI2.865,Optimized Soil-Adjusted Vegetation Index,(1.16) * (RE4 - RE1) / (RE4 + RE1 + 0.16) ,Vegetation,['RE4'  'RE1'],,
+PNDVI,Pan NDVI,(N - (B + G + R)) / (N + (B + G + R)),Vegetation,['N' 'B' 'G'  'R],http://www.sciencedirect.com/science/article/pii/S1672630807600274,
+PSRI,Plant Senescence Reflectance Index,(R - B) / RE2,Vegetation,['R'  'B' 'RE2'],http://dx.doi.org/10.1034/j.1399-3054.1999.106119.x,
+PSRI2,Plant Senescence Reflectance Index 2,(R - B) / RE1,Vegetation,['R' 'B' 'RE1'],,
+RBNDVI,Red-Blue NDVI,(N- (R + B)) / (N + (R + B)),Vegetation,['N' 'R' 'B'],,
+RCC,Red Chromatic Coordinate,R / (R + G + B),Vegetation,['R' 'G' 'B'],https://doi.org/10.1016/0034-4257(87)90088-5,
+RDVI,Renormalized Difference Vegetation Index,(N - R) / ((N + R) ** 0.5),Vegetation,['N' 'R'],https://doi.org/10.1016/0034-4257(94)00114-3,https://www.indexdatabase.de/db/i-single.php?id=240
+rededgeWDRVI,rededge Wide Dynamic Range Vegetation Index,(0.1 * N - RE1) / (0.1 * N + RE1) + (1 - 0.1) / (1 + 0.1),Vegetation,['N' 'RE1'],,
+REDSI,Red-Edge Disease Stress Index,((705.0 - 665.0) * (RE3 - R) - (783.0 - 665.0) * (RE1 - R)) / (2.0 * R),Vegetation,['RE3'  'R' 'RE1'],https://doi.org/10.3390/s18030868,
+REP,Red-Edge Position Linear Interpolation,700 + 40 * (((R + RE3) / 2 - RE1) / (RE2 - RE1)),Vegetation,['R' 'RE3' 'RE1' 'RE2'],https://www.isprs.org/proceedings/XXVII/congress/part7/750_XXVII-part7-sup.pdf,https://www.indexdatabase.de/db/i-single.php?id=196
+REP740,Red-Edge Position Linear Interpolation,700 + 40 * (((R + RE2) / 2 - RE1) / (RE2 - RE1)),Vegetation,['R' 'RE2' 'RE1'],,
+REP842,Red-Edge Position Linear Interpolation,700 + 40 * (((R +N )/ 2 - RE1)/(RE2 - RE1)),Vegetation,['R' 'N' 'RE1' 'RE2'],,
+REP865,Red-Edge Position Linear Interpolation,700 + 40 * (((R + RE4) / 2 - RE1) / (RE2 - RE1)),Vegetation,['R' 'RE4'  'RE1' 'RE2'],,
+REPle,Red-Edge Position Linear Interpolation,700 + 40 * (((R + RE3 / 2) - RE1) / (RE2 -RE1)),Vegetation,['R' 'RE3' 'RE1' 'RE2'],,
+REPli,Red-Edge Position Linear Interpolation,700 + 40 * ((R + RE3 / 2) / (RE2 - RE1)),Vegetation,['R'  'RE3' 'RE2' 'RE1'],,
+RI,Normalized Difference Red/Green Redness Index,(R - G) / (R + G),Vegetation,['R'  'G'],,
+RVI,Ratio Vegetation Index,N / R,Vegetation,['N' 'R'],,https://www.indexdatabase.de/db/i-single.php?id=72
+S2REP,Sentinel-2 Red-Edge Position,705.0 + 35.0 * ((((RE3 + R) / 2.0) - RE1) / (RE2 - RE1)),Vegetation,['RE3' 'R' 'RE1' 'RE2'],https://doi.org/10.1016/j.isprsjprs.2013.04.007,
+SARVI,Soil Adjusted and Atmospherically Resistant Vegetation Index,(1 + L)*(N - (R - (R - B))) / (N + (R - (R - B)) + L),Soil Vegetation,['L' 'N' 'R' 'B'],https://doi.org/10.1109/36.134076,
+SAVI,Soil-Adjusted Vegetation Index,(1.0 + L) * (N - R) / (N + R + L),Agriculture- Crop parameters Soil Vegetation Vegetation - Biomass,['L' 'N'  'R'],https://doi.org/10.1016/0034-4257(88)90106-X,https://www.indexdatabase.de/db/i-single.php?id=87
+SAVI2,Soil-Adjusted Vegetation Index 2,N / (R + (slb / sla)),Vegetation,['N' 'R' 'slb' 'sla'],https://doi.org/10.1080/01431169008955053,https://www.indexdatabase.de/db/i-single.php?id=310
+SBI,Tasselled Cap - brightness,0.433 * G - 0.632 * R + 0.586 * RE1 + 0.264 * N,Vegetation,['G' 'R' 'RE1' 'N'],,
+SeLI,Sentinel-2 LAI Green Index,(RE4 - RE1) / (RE4 + RE1),Vegetation,['RE4'  'RE1'],https://doi.org/10.3390/s19040904,
+SIPI 1,Structure Insensitive Pigment Index 1,(N - A) / (N - R),Vegetation Vegetation - Chlorophyll,['N' 'A' 'R'],https://eurekamag.com/research/009/395/009395053.php,
+SIPI 2,Structure Insensitive Pigment Index 2,(N - B) / (N - R),Vegetation Vegetation - Chlorophyll,['N' 'B'  'R'],,
+SR,Simple Ratio,N / R,Vegetation,['N' 'R'],https://doi.org/10.2134/agronj1968.00021962006000060016x,
+SR555.750,Simple Ratio (555 and 750 nm),RE2 / G,Vegetation,['RE2'  'G'],,
+SR705.750,Simple Ratio 754/704 Datt3,RE2 / RE1,Vegetation,['RE2' 'RE1'],,
+SR740.665,Simple Ratio (740 and 665 nm),RE2 / R,Vegetation,['RE2' 'R'],,
+SR783.665,Simple Ratio (783 and 665 nm),RE3 / R,Vegetation,['RE3' 'R'],,
+SR865.665,Simple Ratio (865 and 665 nm),RE4 / R,Vegetation,['RE4' 'R'],,
+TCARI,Transformed Chlorophyll Absorption in Reflectance Index,3 * ((RE1 - R) - 0.2 * (RE1 - G) * (RE1 / R)),Vegetation - Chlorophyll,['RE1' 'R' 'G'],https://doi.org/10.1016/S0034-4257(02)00018-4,
+TCARI740,,3*(((RE2 - RE1) - 0.2 * (RE2 - G)) * (RE2 / RE1)) ,Vegetation - Chlorophyll,['RE2'  'RE1' 'G'],,
+TCARI783,,3*(((RE3 - RE1) -0.2 *( RE3 - G)) * (RE3 / RE1)) ,Vegetation - Chlorophyll,['RE3' 'RE1' 'G'],,
+TCARI842,,3*(((N-RE1)-0.2*(N-G))*(N/RE1)) ,Vegetation - Chlorophyll,['N' 'RE1' 'G'],,
+TCARI865,,3*(((RE4 - RE1) - 0.2 * (RE4 - G))*(RE4 / RE1)) ,Vegetation - Chlorophyll,['RE4' 'RE1' 'G'],,
+TCARIOSAVI,TCARI/OSAVI Ratio,(3 * ((RE1 - R) - 0.2 * (RE1 - G) * (RE1 / R))) / (1.16 * (N - R) / (N + R + 0.16)),Vegetation,['RE1' 'R' 'G' 'N'],https://doi.org/10.1016/S0034-4257(02)00018-4,https://www.indexdatabase.de/db/i-single.php?id=191
+TCARIOSAVI705,TCARI/OSAVI Ratio (705 and 750 nm),(3 * ((RE2 - RE1) - 0.2 * (RE2 - G) * (RE2 / RE1))) / (1.16 * (RE2 - RE1) / (RE2 + RE1 + 0.16)),Vegetation,['RE2'  'RE1' 'G'],https://doi.org/10.1016/j.agrformet.2008.03.005,https://www.indexdatabase.de/db/i-single.php?id=191
+TCARIOSAVI740,,(3 * ((( RE2 - RE1) - 0.2 * (RE2 - G))*(RE2 / RE1))) / ((1.16) * (RE2 - RE1) / (RE2 + RE1 + 0.16)) ,Vegetation,['RE2' 'RE1' 'G'],,
+TCARIOSAVI783,,(3*(((RE3-RE1)-0.2*(RE3-G))*(RE3/RE1)))/((1+0.16)*(RE3-RE1)/(RE3+RE1+0.16)) ,Vegetation,['RE3' 'RE1'  'G'],,
+TCARIOSAVI842,,(3 * (((N - RE1) - 0.2 * (N - G)) * (N / RE1))) / ((1.16) * (N - RE1) / (N + RE1 + 0.16)) ,Vegetation,['N' 'RE1' 'G'],,
+TCARIOSAVI865,,(3 * (((RE4 - RE1) - 0.2 * (RE4 -G ))*(RE4 / RE1))) / ((1.16) * (RE4 - RE1)/(RE4 + RE1 + 0.16)) ,Vegetation,['RE4' 'RE1' 'G'],,
+TCI,Triangular Chlorophyll Index,1.2 * (RE1 - G) - 1.5 * (R - G) * (RE1 / R) ** 0.5,Vegetation Vegetation - Chlorophyll,['RE1' 'G' 'R'],http://dx.doi.org/10.1109/TGRS.2007.904836,https://www.indexdatabase.de/db/i-single.php?id=392
+TGI,Triangular Greenness Index,-(-0.5*((R-B)*(R-G)-(R-G)*(R-B))),Vegetation,['R' 'B' 'G'],http://dx.doi.org/10.1016/j.jag.2012.07.020,https://www.indexdatabase.de/db/i-single.php?id=388
+TNDVI,Trasformed NDVI,-sqrt(0.5 + (N-R)/(N+R)),Vegetation,['N' 'R'],,https://www.indexdatabase.de/db/i-single.php?id=202
+TRBI,Three Ratio Band Index,(G + R) / N,Vegetation,['G' 'R' 'N'],,
+TRRVI,Transformed Red Range Vegetation Index,((RE2 - R) / (RE2 + R)) / (((N - R) / (N + R)) + 1.0),Vegetation,['RE2' 'R' 'N'],https://doi.org/10.3390/rs12152359,
+TSAVI,Transformed Soil-Adjusted Vegetation Index,sla * (N - sla * R - slb) / (sla * N + R - sla * slb),Vegetation,['sla ' 'N' 'R' 'slb'],https://doi.org/10.1109/IGARSS.1989.576128,https://www.indexdatabase.de/db/i-single.php?id=97
+TTVI,Transformed Triangular Vegetation Index,0.5 * ((865.0 - 740.0) * (RE3 - RE2) - (RE4 - RE2) * (783.0 - 740)),Vegetation,['RE3' 'RE2' 'RE4'] ,https://doi.org/10.3390/rs12010016,
+TVI,Triangular Vegetation Index,0.5 * (120 * (N - G) - 200 * (R - G)),Vegetation,['N' 'G'  'R'],http://dx.doi.org/10.1016/S0034-4257(00)00197-8,https://www.indexdatabase.de/db/i-single.php?id=98
+VARI700,Visible Atmospherically Resistant Index (700 nm),(RE1 - 1.7 * R + 0.7 * B) / (RE1 + 1.3 * R - 1.3 * B),Vegetation,['RE1'  'R' 'B'],https://doi.org/10.1016/S0034-4257(01)00289-9,https://www.indexdatabase.de/db/i-single.php?id=359
+VARIgreen,Visible Atmospherically Resistant Index,(G - R) / (G + R - B),Vegetation,['G'  'R' 'B'],,https://www.indexdatabase.de/db/i-single.php?id=356
+VARIrededge,Visible Atmospherically Resistant Index Red-Edge,(RE1 - R) / (RE1 + R),Vegetation,['RE1'  'R],https://doi.org/10.1016/S0034-4257(01)00289-9,https://www.indexdatabase.de/db/i-single.php?id=130
+VIG,Vegetation Index Green,(G - R) / (G + R),Vegetation,['G'  'R],https://doi.org/10.1016/S0034-4257(01)00289-9,
+WDRVI,Wide Dynamic Range Vegetation Index,(alpha * N - R) / (alpha * N + R),Vegetation,['alpha' 'N'  'R],https://doi.org/10.1078/0176-1617-01176,https://www.indexdatabase.de/db/i-single.php?id=125
+WDRVI2,,(0.1 * N - R) / (0.1 * N + R) + (1 - 0.1) / (1 + 0.1),Vegetation,['N' 'R],,
+WDRVI3,,(0.2*N-R)/(0.2*N+R)+(1-0.2)/(1+0.2),Vegetation,['N' 'R],,
+WDRVI740,,alpha * RE2 - R) / (alpha * RE2 + R) ,Vegetation,['alpha' 'RE2' 'R],,
+WDRVI783,,(alpha * RE3 - R) / (alpha * RE3 + R) ,Vegetation,['alpha' 'RE3' 'R],,
+WDRVI842,,(0.1 * N - R) / (0.1 * N + R) ,Vegetation,['N' 'R'],,
+WDVI,Weighted Difference Vegetation Index,N - sla * R,Vegetation,['N' 'sla' 'R'],https://doi.org/10.1016/0034-4257(89)90076-X,https://www.indexdatabase.de/db/i-single.php?id=104
+YVI,Tasselled Cap - Yellow Vegetation Index MSS,(-0.829 * G - 0.522 * R + 0.039 * RE1 + 0.149 * N),Vegetation,['G' 'R' 'RE1' 'N'],,
+Datt5, Simple Ratio 672/550 Datt5,R / G,Vegetation Vegetation - Chlorophyll,['R' 'G'],http://www.sciencedirect.com/science/article/pii/S0034425798000467,https://www.indexdatabase.de/db/i-single.php?id=154
+Datt2,Simple Ratio 850/710 Datt2,N / RE1,Vegetation Vegetation - Chlorophyll,['N' 'RE1'],http://www.sciencedirect.com/science/article/pii/S092427161100089X,https://www.indexdatabase.de/db/i-single.php?id=151
+Datt6,Datt6,N / (G * RE1),Vegetation Vegetation - Chlorophyll,['N' 'G' 'RE1'],http://www.sciencedirect.com/science/article/pii/S0034425798000467,https://www.indexdatabase.de/db/i-single.php?id=155
+Datt4,Datt4,R /( G * RE1),Vegetation Vegetation - Chlorophyll,['R' 'G' 'RE1'],"	http://www.sciencedirect.com/science/article/pii/S0034425798000467",https://www.indexdatabase.de/db/i-single.php?id=153
+AWEInsh,Automated Water Extraction Index,4.0 * (G - S1) - 0.25 * N + 2.75 * S2,water,['G' 'S1' 'N' 'S2'],,
+AWEIsh,Automated Water Extraction Index with Shadows Elimination,B + 2.5 * G - 1.5 * (N + S1) - 0.25 * S2,water,[B G N S1 S2],,
+MBWI,Multi-Band Water Index,(omega * G) - R - N - S1 - S2,water,[omega 'G'  'R' 'N' 'S1' 'S2'],,
+MNDWI,Modified Normalized Difference Water Index,(G - S1) / (G + S1),water,['G'  'S1'],,
+NDVIMNDWI,NDVI-MNDWI Model,((N - R)/(N + R)) - ((G - S1)/(G + S1)),water,['N' 'R' 'G' 'S1'],,
+NDWI,Normalized Difference Water Index,(N - S1) / (N + S1),Vegetation Vegetation - Water,['N' 'S1'],"	http://www.sciencedirect.com/science/article/pii/S0034425796000673",https://www.indexdatabase.de/db/i-single.php?id=60
+NWI,New Water Index,(B - (N + S1 + S2))/(B + (N + S1 + S2)),water,['B' 'N' 'S1' 'S2'],,
+WI1,Water Index 1,(G - S2) / (G + S2),water,['G' 'S2'],,
+WI2,Water Index 2,(B - S2) / (B + S2),water,['B' 'S2'],,
+WRI,Water Ratio Index,(G + R)/(N + S1),water,['G' 'R' 'N' 'S1'],,
+Datt1,Datt1,(N - RE1) / (N + R),Vegetation Vegetation - Chlorophyll,['N' 'R' 'RE1'],http://dx.doi.org/10.1071/BT98042,https://www.indexdatabase.de/db/i-single.php?id=150
