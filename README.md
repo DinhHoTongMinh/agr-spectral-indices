@@ -246,7 +246,10 @@ Additional index parameters also follow a standard:
   - CVI865
   
 ### D
-
+- [Datt1](http://dx.doi.org/10.1071/BT98042): Datt1
+- [Datt2](http://www.sciencedirect.com/science/article/pii/S092427161100089X): Simple Ratio 850/710 Datt2
+- [Datt3](): Datt1
+- [Datt4](): Datt1
 - [DVI](https://doi.org/10.2307/1936256): Difference Vegetation Index.
 - [DVIplus](https://doi.org/10.1016/j.rse.2019.03.028): Difference Vegetation Index Plus.
 
