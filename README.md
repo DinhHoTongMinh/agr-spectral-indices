@@ -238,8 +238,8 @@ The kernel indices are constructed using a special type of parameters:
 
 ### C
 
-- [CIG](https://doi.org/10.1078/0176-1617-00887): Chlorophyll Index Green.
-- [CIRE](https://doi.org/10.1078/0176-1617-00887): Chlorophyll Index Red Edge.
+- [CIgree](https://doi.org/10.1078/0176-1617-00887): Chlorophyll Index Green.
+- [CIred-edge](https://doi.org/10.1078/0176-1617-00887): Chlorophyll Index Red Edge.
 - [CVI](https://www.cabdirect.org/cabdirect/abstract/20073176046): Chlorophyll Vegetation Index. 
 
 ### D
