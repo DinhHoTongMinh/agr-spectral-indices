@@ -1,2 +1,0 @@
-short_name,Applications,sec_name,References,Index DataBase,long_name,,Bands,formula
-AFRI1600,"Fire; Forestry; Vegetation",,https://doi.org/10.1016/S0034-4257(01)00190-0,https://www.indexdatabase.de/db/i-single.php?id=393,Aerosol Free Vegetation Index (1600 nm),,"['N'; 'S1']",(N - 0.66 * S1) / (N + 0.66 * S1)
