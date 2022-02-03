@@ -233,15 +233,28 @@ The kernel indices are constructed using a special type of parameters:
 ### B
 
 - [BCC](https://doi.org/10.1016/0034-4257(87)90088-5): Blue Chromatic Coordinate.
+- [BGI](https://doi.org/10.1016/j.rse.2005.09.002): Blue Green pigment Index.
 - [BNDVI](https://www.indexdatabase.de/db/i-single.php?id=135): Blue Normalized Difference Vegetation Index.
 - [BWDRVI](https://doi.org/10.2135/cropsci2007.01.0031): Blue Wide Dynamic Range Vegetation Index.
 
 ### C
 
-- [CIgree](https://doi.org/10.1078/0176-1617-00887): Chlorophyll Index Green.
-- [CIred-edge](https://doi.org/10.1078/0176-1617-00887): Chlorophyll Index Red Edge.
-- [CVI](https://www.cabdirect.org/cabdirect/abstract/20073176046): Chlorophyll Vegetation Index. 
+- [CCCI](https://doi.org/10.1016/j.fcr.2013.12.018): Canopy Chlorophyll Content Index
+- [CIgreen](https://doi.org/10.1078/0176-1617-00887): Chlorophyll Index Green.
+  - CIgreen740.560
+  - CIgreen783.560
+  - CIgreen865.560
 
+- [CIred-edge](https://doi.org/10.1078/0176-1617-00887): Chlorophyll Index Red Edge.
+  - CIred-edge740.705
+  - CIred-edge783.705
+  - CIred-edge865.705
+ 
+- [CVI](https://www.cabdirect.org/cabdirect/abstract/20073176046): Chlorophyll Vegetation Index. 
+  - CVI705
+  - CVI783
+  - CVI865
+  
 ### D
 
 - [DVI](https://doi.org/10.2307/1936256): Difference Vegetation Index.
