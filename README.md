@@ -1,4 +1,4 @@
-# Agricultural Spectral Indices
+# Vegetation Indices
 **Contributors:** *Michele Croci*, *Giorgio Impollonia*, *Andrea Marcone* and *Stefano Amaducci*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5957470.svg)](https://doi.org/10.5281/zenodo.5957470)
@@ -205,17 +205,7 @@ Additional index parameters also follow a standard:
 - `omega`: Weighting coefficient used for MBWI.
 - `sla`: Soil line slope.
 - `slb`: Soil line intercept.
-- `PAR`: Photosynthetically Active Radiation.
-- `k`: Slope parameter by soil used for NIRvH2.
-- `lambdaN`: NIR wavelength used for NIRvH2 and NDGI.
-- `lambdaR`: Red wavelength used for NIRvH2 and NDGI.
-- `lambdaG`: Green wavelength used for NDGI.
 
-The kernel indices are constructed using a special type of parameters:
-
-- `kAB`: Kernel of bands/parameters `A` and `B` (e.g. `kNR` means `k(N,R)`, where `k` is the kernel function).
-- `p`: Kernel degree (used for the polynomial kernel).
-- `c`: Free parameter that trades off the influence of higher-order versus lower-order terms (used for the polynomial kernel).
 
 
 # Spectral Indices by Type
@@ -280,10 +270,16 @@ The kernel indices are constructed using a special type of parameters:
 - [GBNDVI](https://www.indexdatabase.de/db/i-single.php?id=186): Green-Blue Normalized Difference Vegetation Index.
 - [GCC](https://doi.org/10.1016/0034-4257(87)90088-5): Green Chromatic Coordinate.
 - [GDVI](https://doi.org/10.3390/rs6021211): Generalized Difference Vegetation Index. 
-- [GEMI](http://dx.doi.org/10.1007/bf00031911): Global Environment Monitoring Index. 
+- [GEMI](http://dx.doi.org/10.1007/bf00031911): Global Environment Monitoring Index.
+- [GI](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.610.5657&rep=rep1&type=pdf): Greenness Index
 - [GLI](http://dx.doi.org/10.1080/10106040108542184): Green Leaf Index. 
 - [GNDVI](https://doi.org/10.1016/S0034-4257(96)00072-7): Green Normalized Difference Vegetation Index. 
-- [GRNDVI](https://www.indexdatabase.de/db/i-single.php?id=185): Green-Red Normalized Difference Vegetation Index. 
+   - GNDVI740.560
+   - GNDVI865.560
+- [GOSAVI](http://www.lib.ncsu.edu/resolver/1840.16/4200): Green Optimized Soil-Adjusted Vegetation Index
+- [greenWDRVI]()
+- [GRNDVI](https://www.indexdatabase.de/db/i-single.php?id=185): Green-Red Normalized Difference Vegetation Index.
+- [GRVI]()
 - [GVMI](https://doi.org/10.1016/S0034-4257(02)00037-8): Global Vegetation Moisture Index. 
 
 ### I
