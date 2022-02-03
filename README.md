@@ -1,5 +1,5 @@
 # Agricultural Vegetation Indices
-**Contributors:** *Michele Croci*, *Giorgio Impollonia* *Andrea Marcone* and *Stefano Amaducci*
+**Contributors:** *Michele Croci*, *Giorgio Impollonia*, *Andrea Marcone* and *Stefano Amaducci*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5957470.svg)](https://doi.org/10.5281/zenodo.5957470)
 
