@@ -405,7 +405,7 @@ Additional index parameters also follow a standard:
 
 # List
 
-Check the full list of spectral indices with their formulas [here](https://github.com/davemlz/awesome-ee-spectral-indices/blob/main/output/spectral-indices-table.csv).
+Check the full list of spectral indices with their formulas [here](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/).
 
 # Download Raw Files
 
