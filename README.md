@@ -1,4 +1,4 @@
-# Spectral Indices
+# Agricultural Vegetation Indices
 **Contributors:** *Michele Croci*, *Giorgio Impollonia* and *Stefano Amaducci*
 
 The ready-to-use curated list of spectral indices ([check the list here](https://github.com/MCroci/spectral-indices/blob/master/Output/)) for remote sensing applications is presented here. The list is available in two formats ([CSV](https://github.com/MCroci/spectral-indices/blob/master/Output/spectral-indices-table.csv), [JSON](https://github.com/MCroci/spectral-indices/blob/master/Output/spectral-indices-table.csv)) so it can be easily used in any programming language.
