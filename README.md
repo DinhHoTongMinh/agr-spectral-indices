@@ -13,7 +13,7 @@ Each item of the list has the following attributes:
 - `formula`: Expression/formula of the index (e.g. `"(G - N)/(G + N)"`).
 - `bands`: List of required bands/parameters for the index computation (e.g. `["N","G"]`).
 - `reference`: Link to the index reference/paper/doi (e.g. `"https://doi.org/10.1080/01431169608948714"`).
-- `type`: Type/application of the index (e.g. `"water"`).
+- `type`: Type/application of the index (e.g. `"Biomass"`).
 - `date_of_addition`: Date of addition to the list (e.g. `"2022-01-01"`).
 - `contributor`: GitHub user link of the contributor (e.g. `"https://github.com/mcroci"`).
 
