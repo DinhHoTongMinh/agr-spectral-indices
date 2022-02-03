@@ -1,6 +1,8 @@
 # Vegetation Indices
 **Contributors:** *Michele Croci*, *Giorgio Impollonia*, *Andrea Marcone* and *Stefano Amaducci*
 
+This repository is inspired by `"davemlz/awesome-ee-spectral-indices"`, but with the aim of collecting specific vegetation indices for crop monitoring 🌱🌾 and precision agriculture 🚜.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5957470.svg)](https://doi.org/10.5281/zenodo.5957470)
 
 The ready-to-use curated list of spectral indices ([check the list here](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/)) for remote sensing applications is presented here. The list is available in the csv formats ([CSV](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/Spectral%20Vegetation%20Indices.csv)).
@@ -414,6 +416,4 @@ git clone https://github.com/MCroci/spectral-indices.git
 ```
 
 Or you can download the single files here (right-click > Save link as...):
-
-- JSON: [Raw list](https://raw.githubusercontent.com/davemlz/awesome-ee-spectral-indices/main/output/spectral-indices-dict.json)
-- CSV: [Raw list](https://raw.githubusercontent.com/davemlz/awesome-ee-spectral-indices/main/output/spectral-indices-table.csv)
+- CSV: [Raw list](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/Spectral%20Vegetation%20Indices.csv)
