@@ -10,7 +10,7 @@ Each item of the list has the following attributes:
 
 - `short_name`: Short name of the index (e.g. `"NDWI"`).
 - `long_name`: Long name of the index (e.g. `"Normalized Difference Water Index"`).
-- `formula`: Expression/formula of the index (e.g. `"(G - N)/(G + N)"`).
+- `formula`: Expression/formula of the index (e.g. `"(N - R)/(N + R)"`).
 - `bands`: List of required bands/parameters for the index computation (e.g. `["N","G"]`).
 - `reference`: Link to the index reference/paper/doi (e.g. `"https://doi.org/10.1080/01431169608948714"`).
 - `type`: Type/application of the index (e.g. `"Biomass"`).
