@@ -3,15 +3,14 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5957470.svg)](https://doi.org/10.5281/zenodo.5957470)
 
-The ready-to-use curated list of spectral indices ([check the list here](https://github.com/MCroci/spectral-indices/blob/master/Output/)) for remote sensing applications is presented here. The list is available in two formats ([CSV](https://github.com/MCroci/spectral-indices/blob/master/Output/spectral-indices-table.csv), [JSON](https://github.com/MCroci/spectral-indices/blob/master/Output/spectral-indices-table.csv)) so it can be easily used in any programming language.
+The ready-to-use curated list of spectral indices ([check the list here](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/)) for remote sensing applications is presented here. The list is available in the csv formats ([CSV](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/Spectral%20Vegetation%20Indices.csv)).
 
 ## Attributes
 Each item of the list has the following attributes:
-
-- `short_name`: Short name of the index (e.g. `"NDWI"`).
-- `long_name`: Long name of the index (e.g. `"Normalized Difference Water Index"`).
+- `short_name`: Short name of the index (e.g. `"NDVI"`).
+- `long_name`: Long name of the index (e.g. `"Normalized Difference Vegetation Index"`).
 - `formula`: Expression/formula of the index (e.g. `"(N - R)/(N + R)"`).
-- `bands`: List of required bands/parameters for the index computation (e.g. `["N","G"]`).
+- `bands`: List of required bands/parameters for the index computation (e.g. `["N","R"]`).
 - `reference`: Link to the index reference/paper/doi (e.g. `"https://doi.org/10.1080/01431169608948714"`).
 - `type`: Type/application of the index (e.g. `"Biomass"`).
 - `date_of_addition`: Date of addition to the list (e.g. `"2022-01-01"`).
