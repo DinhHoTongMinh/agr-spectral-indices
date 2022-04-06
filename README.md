@@ -1,5 +1,5 @@
 # Vegetation Indices
-**Contributors:** *Michele Croci*, *Giorgio Impollonia*, *Andrea Marcone* and *Stefano Amaducci*
+**Contributors:** *Michele Croci*
 
 This repository is inspired by `"davemlz/awesome-ee-spectral-indices"`, but with the aim of collecting specific vegetation indices for crop monitoring 🌱🌾 and precision agriculture 🚜.
 
