@@ -16,7 +16,6 @@ Each item of the list has the following attributes:
 - `reference`: Link to the index reference/paper/doi (e.g. `"https://doi.org/10.1080/01431169608948714"`).
 - `type`: Type/application of the index (e.g. `"Biomass"`).
 - `date_of_addition`: Date of addition to the list (e.g. `"2022-01-01"`).
-- `contributor`: GitHub user link of the contributor (e.g. `"https://github.com/mcroci"`).
 
 ## Expressions
 
