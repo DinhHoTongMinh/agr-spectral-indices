@@ -406,14 +406,3 @@ Additional index parameters also follow a standard:
 # List
 
 Check the full list of spectral indices with their formulas [here](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/).
-
-# Download Raw Files
-
-You can download or clone the repository:
-
-```
-git clone https://github.com/MCroci/spectral-indices.git
-```
-
-Or you can download the single files here (right-click > Save link as...):
-- CSV: [Raw list](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/Spectral%20Vegetation%20Indices.csv)
