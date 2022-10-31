@@ -406,8 +406,8 @@ Additional index parameters also follow a standard:
 
 ### radar indicators
 
-- [RVI](https://doi.org/10.3390/rs10091370: Radar Vegetation Index Sentinel-1.
-- [RVIpal](https://doi.org/10.3390/rs10091370: Radar Vegetation Index PALSAR.
+- [RVI](https://doi.org/10.3390/rs10091370): Radar Vegetation Index Sentinel-1.
+- [RVIpal](https://doi.org/10.3390/rs10091370): Radar Vegetation Index PALSAR.
 
 
 # List
