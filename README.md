@@ -7,7 +7,7 @@ This repository is inspired by `"davemlz/awesome-ee-spectral-indices"`, but with
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5957470.svg)](https://doi.org/10.5281/zenodo.5957470)
 
-The ready-to-use curated list of spectral indices ([check the list here](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/)) for remote sensing applications is presented here. The list is available in the csv formats ([CSV](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/Spectral%20Vegetation%20Indices.csv)).
+The ready-to-use curated list of spectral indices ([check the list here](https://github.com/DinhHoTongMinh/agr-spectral-indices/blob/master/Output/)) for remote sensing applications is presented here. The list is available in the csv formats ([CSV](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/Spectral%20Vegetation%20Indices.csv)).
 
 ## Attributes
 Each item of the list has the following attributes:
