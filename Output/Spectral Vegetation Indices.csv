@@ -185,4 +185,3 @@ WRI,Water Ratio Index,(G + R)/(N + S1),water,['G' 'R' 'N' 'S1'],,
 RVI,Radar Vegetation Index Sentinel-1,4VH / (VV + VH),Radar Vegetation Index Sentinel-1, https://doi.org/10.3390/rs10091370,,
 RVIpal,Radar Vegetation Index PALSAR,4HV / (HH + HV),Radar Vegetation Index Sentinel-1, https://doi.org/10.3390/rs10091370,,
 Datt1,Datt1,(N - RE1) / (N + R),Vegetation Vegetation - Chlorophyll,['N' 'R' 'RE1'],http://dx.doi.org/10.1071/BT98042,https://www.indexdatabase.de/db/i-single.php?id=150
-
