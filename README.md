@@ -1,5 +1,6 @@
 # Vegetation Indices
 **Contributors:** *Michele Croci*
+
 *Dinh Ho Tong Minh added in radar indicators*
 
 This repository is inspired by `"davemlz/awesome-ee-spectral-indices"`, but with the aim of collecting specific vegetation indices for crop monitoring 🌱🌾 and precision agriculture 🚜.
