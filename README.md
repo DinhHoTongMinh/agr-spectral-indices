@@ -1,5 +1,6 @@
 # Vegetation Indices
 **Contributors:** *Michele Croci*
+*Dinh Ho Tong Minh added in radar indicators*
 
 This repository is inspired by `"davemlz/awesome-ee-spectral-indices"`, but with the aim of collecting specific vegetation indices for crop monitoring 🌱🌾 and precision agriculture 🚜.
 
@@ -402,6 +403,12 @@ Additional index parameters also follow a standard:
 - [NMDI](https://doi.org/10.1029/2007GL031021): Normalized Multi‐band Drought Index.
 
 
+### radar indicators
+
+- [RVI](https://doi.org/10.3390/rs10091370: Radar Vegetation Index Sentinel-1.
+- [RVIpal](https://doi.org/10.3390/rs10091370: Radar Vegetation Index PALSAR.
+
+
 # List
 
-Check the full list of spectral indices with their formulas [here](https://github.com/MCroci/agr-spectral-indices/blob/master/Output/).
+Check the full list of spectral indices with their formulas [here](https://github.com/DinhHoTongMinh/agr-spectral-indices/blob/master/Output/).
